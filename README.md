@@ -27,13 +27,38 @@ This project was built as part of my **PS-II (Practice School II) Internship** a
 
 ##  Pages
 
-| Page | Route | Description |
-|------|-------|-------------|
-| Home | `/` | Landing page with all sections |
-| Login | `/login` | User authentication screen |
-| Register | `/register` | New user registration screen |
-
+| Home | / | Landing Page |
+| Login | /login | User Login |
+| Register | /register | User Registration |
+| Skill Assessment | /assessment | Skills Evaluation |
+| Dashboard | /dashboard | User Progress Dashboard |
 ---
+
+## Current Progress
+
+Phase 1 Completed:
+
+✅ Requirement Analysis
+
+✅ User Flow Design
+
+✅ Home Page Development
+
+✅ Login & Registration Module
+
+✅ Skill Assessment Page
+
+✅ Dashboard Page
+
+Upcoming Work:
+
+🔄 Business Recommendation Engine
+
+🔄 Mentor Module
+
+🔄 Learning Resources Module
+
+🔄 Database Integration
 
 ##  Features
 
