@@ -1,4 +1,4 @@
-# EntreSkill Hub 🚀
+# EntreSkill Hub 
 ### Skill-to-Startup Enablement Platform
 
 > **PS-II Internship Project** | BML Munjal University | Station: Unified Mentor  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 About the Project
+##  About the Project
 
 EntreSkill Hub is a web application designed to help individuals convert their existing skills into successful micro-businesses. The platform provides personalised business recommendations, structured roadmaps, curated learning resources, and mentorship support.
 
@@ -14,7 +14,7 @@ This project was built as part of my **PS-II (Practice School II) Internship** a
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |-----------|---------|
@@ -25,7 +25,7 @@ This project was built as part of my **PS-II (Practice School II) Internship** a
 
 ---
 
-## 📄 Pages
+##  Pages
 
 | Page | Route | Description |
 |------|-------|-------------|
@@ -35,7 +35,7 @@ This project was built as part of my **PS-II (Practice School II) Internship** a
 
 ---
 
-## 🎯 Features
+##  Features
 
 - **Business Recommendations** — Personalised startup ideas based on user skills
 - **Business Roadmaps** — Step-by-step guided plans from idea to launch
@@ -46,7 +46,7 @@ This project was built as part of my **PS-II (Practice School II) Internship** a
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ```bash
 # 1. Clone or download the project
@@ -64,7 +64,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -93,7 +93,7 @@ src/
 
 ---
 
-## 👨‍💻 Developer
+##  Developer
 
 **Tilak Kumar**  
 BML Munjal University  
