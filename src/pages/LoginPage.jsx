@@ -1,22 +1,19 @@
 // LoginPage.jsx
 // Login screen for EntreSkill Hub
-// Split-panel design: left branding, right form
+// Split-panel design with Remember Me checkbox
 // Built by Tilak Kumar | BML Munjal University | Unified Mentor PS-II
 
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-function InputField({ id, label, type, placeholder, value, onChange, icon, helper, rightElement }) {
+function InputField({ id, label, type, placeholder, value, onChange, icon }) {
   const [showPass, setShowPass] = useState(false);
   const actualType = type === 'password' ? (showPass ? 'text' : 'password') : type;
 
   return (
     <div>
-      <label htmlFor={id} className="input-label">
-        {label}
-      </label>
+      <label htmlFor={id} className="input-label">{label}</label>
       <div className="relative">
-        {/* Left icon */}
         {icon && (
           <span className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 text-base pointer-events-none">
             {icon}
@@ -30,9 +27,7 @@ function InputField({ id, label, type, placeholder, value, onChange, icon, helpe
           onChange={onChange}
           className={`input-field ${icon ? 'pl-10' : ''} ${type === 'password' ? 'pr-12' : ''}`}
           required
-          autoComplete={type === 'password' ? 'current-password' : type === 'email' ? 'email' : 'off'}
         />
-        {/* Password toggle */}
         {type === 'password' && (
           <button
             type="button"
@@ -44,75 +39,69 @@ function InputField({ id, label, type, placeholder, value, onChange, icon, helpe
             {showPass ? '🙈' : '👁️'}
           </button>
         )}
-        {rightElement && !type.includes('password') && (
-          <div className="absolute right-3.5 top-1/2 -translate-y-1/2">{rightElement}</div>
-        )}
       </div>
-      {helper && <p className="text-xs text-gray-400 mt-1.5">{helper}</p>}
     </div>
   );
 }
 
 export default function LoginPage() {
   const navigate = useNavigate();
-  const [form, setForm] = useState({ email: '', password: '' });
+  const [form, setForm] = useState({ email: '', password: '', remember: false });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
   const handleChange = (field) => (e) => {
-    setForm((prev) => ({ ...prev, [field]: e.target.value }));
+    const val = e.target.type === 'checkbox' ? e.target.checked : e.target.value;
+    setForm((prev) => ({ ...prev, [field]: val }));
     setError('');
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!form.email || !form.password) {
+      setError('Please fill in all fields.');
+      return;
+    }
     setLoading(true);
-    setError('');
-    // Simulate API call
+    // Simulating login API call
     await new Promise((r) => setTimeout(r, 1500));
     setLoading(false);
-    // Demo: just navigate to home
-    navigate('/');
+    navigate('/dashboard');
   };
 
   return (
     <div className="min-h-screen flex">
       {/* Left Panel — Branding */}
       <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-gradient-to-br from-primary-600 via-violet-700 to-purple-800 flex-col justify-between p-12">
-        {/* Background decoration */}
         <div className="absolute inset-0 dot-grid opacity-10" />
         <div className="absolute -top-40 -right-40 w-80 h-80 rounded-full bg-white/5 blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 rounded-full bg-white/5 blur-3xl" />
 
         {/* Logo */}
-        <div className="relative flex items-center gap-3">
+        <Link to="/" className="relative flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
             <span className="text-white font-bold text-xl font-display">E</span>
           </div>
           <span className="font-display font-bold text-white text-xl">EntreSkill Hub</span>
-        </div>
+        </Link>
 
         {/* Center content */}
         <div className="relative space-y-8">
           <div>
             <h2 className="font-display font-extrabold text-white text-4xl leading-tight mb-4">
-              Welcome back,{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-200">
-                Entrepreneur!
-              </span>
+              Welcome Back!
             </h2>
             <p className="text-white/70 text-lg leading-relaxed">
-              Continue your journey toward building your dream business.
+              Sign in to access your skill assessment results, business roadmaps, and dashboard.
             </p>
           </div>
 
-          {/* Feature list */}
           <div className="space-y-4">
             {[
-              { icon: '📊', text: 'Track your business progress' },
-              { icon: '🤝', text: 'Connect with your mentors' },
+              { icon: '📊', text: 'View your personalised dashboard' },
+              { icon: '🗺️', text: 'Continue your business roadmap' },
               { icon: '📚', text: 'Access learning resources' },
-              { icon: '🚀', text: 'Execute your roadmap' },
+              { icon: '🤝', text: 'Connect with mentors' },
             ].map((item) => (
               <div key={item.text} className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-lg bg-white/15 backdrop-blur-sm flex items-center justify-center text-base flex-shrink-0">
@@ -123,26 +112,18 @@ export default function LoginPage() {
             ))}
           </div>
 
-          {/* Testimonial */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 p-5">
-            <p className="text-white/80 text-sm italic leading-relaxed mb-3">
-              "EntreSkill Hub helped me turn my baking hobby into a ₹3L/month business in just 6 months!"
-            </p>
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-orange-400 flex items-center justify-center text-base">
-                👩‍🍳
-              </div>
-              <div>
-                <div className="text-white text-sm font-semibold">Sneha Patel</div>
-                <div className="text-white/60 text-xs">Bakery Owner, Pune</div>
-              </div>
+          {/* Project badge */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 p-4 flex items-center gap-3">
+            <span className="text-xl">🎓</span>
+            <div>
+              <div className="text-white text-sm font-semibold">PS-II Internship Project</div>
+              <div className="text-white/60 text-xs">BML Munjal University · Unified Mentor</div>
             </div>
           </div>
         </div>
 
-        {/* Bottom text */}
         <div className="relative text-white/50 text-xs">
-          © {new Date().getFullYear()} EntreSkill Hub. All rights reserved.
+          © {new Date().getFullYear()} EntreSkill Hub — Academic Project
         </div>
       </div>
 
@@ -150,16 +131,15 @@ export default function LoginPage() {
       <div className="flex-1 flex items-center justify-center p-6 sm:p-10 bg-gray-50">
         <div className="w-full max-w-md">
           {/* Mobile logo */}
-          <div className="lg:hidden flex items-center gap-2.5 mb-8">
+          <Link to="/" className="lg:hidden flex items-center gap-2.5 mb-8">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary-500 to-violet-600 flex items-center justify-center">
               <span className="text-white font-bold text-lg font-display">E</span>
             </div>
             <span className="font-display font-bold text-gray-900 text-lg">
               Entre<span className="gradient-text">Skill</span> Hub
             </span>
-          </div>
+          </Link>
 
-          {/* Heading */}
           <div className="mb-8">
             <h1 className="font-display font-extrabold text-3xl text-gray-900 mb-2">
               Sign in to your account
@@ -194,8 +174,18 @@ export default function LoginPage() {
                 icon="🔒"
               />
 
-              {/* Forgot password */}
-              <div className="flex justify-end -mt-1">
+              {/* Remember me + Forgot password row */}
+              <div className="flex items-center justify-between">
+                <label htmlFor="remember-me" className="flex items-center gap-2 cursor-pointer group">
+                  <input
+                    type="checkbox"
+                    id="remember-me"
+                    checked={form.remember}
+                    onChange={handleChange('remember')}
+                    className="w-4 h-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500 cursor-pointer"
+                  />
+                  <span className="text-sm text-gray-600 group-hover:text-gray-800 transition-colors">Remember me</span>
+                </label>
                 <a
                   href="#"
                   id="forgot-password-link"
@@ -205,11 +195,10 @@ export default function LoginPage() {
                 </a>
               </div>
 
-              {/* Error message */}
+              {/* Error */}
               {error && (
                 <div className="flex items-center gap-2 p-3 bg-red-50 border border-red-100 rounded-xl text-red-600 text-sm">
-                  <span>⚠️</span>
-                  {error}
+                  <span>⚠️</span>{error}
                 </div>
               )}
 
@@ -237,40 +226,11 @@ export default function LoginPage() {
                   </>
                 )}
               </button>
-
-              {/* Divider */}
-              <div className="flex items-center gap-4 my-2">
-                <div className="flex-1 h-px bg-gray-100" />
-                <span className="text-xs text-gray-400 font-medium">or continue with</span>
-                <div className="flex-1 h-px bg-gray-100" />
-              </div>
-
-              {/* Social login */}
-              <div className="grid grid-cols-2 gap-3">
-                {[
-                  { id: 'login-google', label: 'Google', icon: '🌐' },
-                  { id: 'login-github', label: 'GitHub', icon: '🐙' },
-                ].map((provider) => (
-                  <button
-                    key={provider.id}
-                    id={provider.id}
-                    type="button"
-                    className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl border border-gray-200 bg-white hover:bg-gray-50 hover:border-gray-300 text-sm font-medium text-gray-700 transition-all duration-200 hover:-translate-y-0.5 shadow-sm"
-                  >
-                    <span>{provider.icon}</span>
-                    {provider.label}
-                  </button>
-                ))}
-              </div>
             </form>
           </div>
 
-          {/* Footer note */}
           <p className="text-center text-xs text-gray-400 mt-6">
-            By signing in, you agree to our{' '}
-            <a href="#" className="text-primary-600 hover:underline">Terms of Service</a>{' '}
-            and{' '}
-            <a href="#" className="text-primary-600 hover:underline">Privacy Policy</a>.
+            This is a demo login for academic purposes. No real authentication is active yet.
           </p>
         </div>
       </div>

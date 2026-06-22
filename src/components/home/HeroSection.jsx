@@ -79,11 +79,11 @@ export default function HeroSection() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-up stagger-3">
               <Link
-                to="/register"
+                to="/assessment"
                 id="hero-get-started-btn"
                 className="btn-primary text-base px-8 py-4"
               >
-                Get Started — It's Free
+                Take Skill Assessment
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -96,16 +96,16 @@ export default function HeroSection() {
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
-                Explore Business Ideas
+                Explore Platform
               </a>
             </div>
 
-            {/* Trust indicators */}
+            {/* Project indicators */}
             <div className="mt-10 flex flex-wrap items-center gap-6 justify-center lg:justify-start animate-fade-up stagger-4">
               {[
-                { icon: '✓', text: 'No credit card required' },
-                { icon: '✓', text: '5,000+ businesses launched' },
-                { icon: '✓', text: 'Expert mentor network' },
+                { icon: '✓', text: 'PS-II Internship Project' },
+                { icon: '✓', text: 'React + Tailwind CSS' },
+                { icon: '✓', text: 'BML Munjal University' },
               ].map((item) => (
                 <div key={item.text} className="flex items-center gap-2 text-sm text-gray-500">
                   <span className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold flex-shrink-0">
@@ -138,23 +138,23 @@ export default function HeroSection() {
 function HeroVisual() {
   const cards = [
     {
-      icon: '🚀',
-      label: 'Business Launched',
-      value: '+2,847',
+      icon: '🧠',
+      label: 'Skill Assessment',
+      value: 'Module 1',
       color: 'from-primary-500 to-violet-500',
       position: 'top-0 left-4',
     },
     {
-      icon: '💰',
-      label: 'Revenue Generated',
-      value: '$4.2M',
+      icon: '📚',
+      label: 'Learning Resources',
+      value: 'Curated',
       color: 'from-emerald-500 to-cyan-500',
       position: 'bottom-8 left-0',
     },
     {
-      icon: '⭐',
-      label: 'Success Rate',
-      value: '92%',
+      icon: '🗺️',
+      label: 'Roadmap Engine',
+      value: 'Planned',
       color: 'from-amber-500 to-orange-500',
       position: 'top-12 right-0',
     },

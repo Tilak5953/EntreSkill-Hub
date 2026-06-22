@@ -1,6 +1,6 @@
 // HomePage.jsx
-// This is the main landing page of EntreSkill Hub
-// Composed of multiple sections arranged in logical order
+// Main landing page of EntreSkill Hub
+// Structured to look like a genuine PS-II internship project
 // -- Tilak Kumar
 
 import Navbar from '../components/layout/Navbar';
@@ -9,36 +9,40 @@ import HeroSection from '../components/home/HeroSection';
 import FeaturesSection from '../components/home/FeaturesSection';
 import HowItWorksSection from '../components/home/HowItWorksSection';
 import StatsSection from '../components/home/StatsSection';
-import TestimonialsSection from '../components/home/TestimonialsSection';
+import ProjectModulesSection from '../components/home/ProjectModulesSection';
 import AboutSection from '../components/home/AboutSection';
+import ProjectProgressSection from '../components/home/ProjectProgressSection';
 import CTASection from '../components/home/CTASection';
 
 export default function HomePage() {
   return (
     <div className="min-h-screen">
-      {/* Top navigation bar */}
+      {/* Navigation */}
       <Navbar />
 
       <main>
-        {/* Hero - first thing user sees */}
+        {/* Hero banner */}
         <HeroSection />
 
-        {/* Features - what the platform offers */}
+        {/* Platform features overview */}
         <FeaturesSection />
 
-        {/* How it works - simple 4-step process */}
+        {/* How the platform works - 4 steps */}
         <HowItWorksSection />
 
-        {/* Stats - numbers to build trust */}
+        {/* Project scope metrics */}
         <StatsSection />
 
-        {/* Testimonials - real success stories */}
-        <TestimonialsSection />
+        {/* 6 functional modules of the project */}
+        <ProjectModulesSection />
 
-        {/* About - platform background */}
+        {/* About the project + PS-II internship details */}
         <AboutSection />
 
-        {/* Final CTA - push user to register */}
+        {/* Development timeline and progress */}
+        <ProjectProgressSection />
+
+        {/* Call to action */}
         <CTASection />
       </main>
 
