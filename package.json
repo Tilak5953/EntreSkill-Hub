@@ -4,7 +4,13 @@
   "version": "1.0.0",
   "description": "EntreSkill Hub - Skill-to-Startup Enablement Platform | PS-II Internship Project",
   "author": "Tilak Kumar <BML Munjal University>",
-  "keywords": ["react", "tailwindcss", "entrepreneurship", "startup", "ps2-internship"],
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "entrepreneurship",
+    "startup",
+    "ps2-internship"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,9 +20,11 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "axios": "^1.18.1",
     "lucide-react": "^1.21.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+    "react-hot-toast": "^2.6.0",
     "react-router-dom": "^7.18.0"
   },
   "devDependencies": {

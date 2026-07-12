@@ -1,31 +1,52 @@
-// EntreSkill Hub - Main App Component
-// Developer: Tilak Kumar
-// Course: PS-II Internship | BML Munjal University
-// Station: Unified Mentor
-// Project: Skill-to-Startup Enablement Platform
+// Updated App.jsx with auth, protected routes, and all new pages
+// Developer: Tilak Kumar | BML Munjal University | PS-II Internship
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
+import { AuthProvider } from './context/AuthContext';
+import ScrollToTop from './components/common/ScrollToTop';
+import ProtectedRoute from './components/common/ProtectedRoute';
+
+// Pages
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import SkillAssessmentPage from './pages/SkillAssessmentPage';
 import DashboardPage from './pages/DashboardPage';
-import ScrollToTop from './components/common/ScrollToTop';
+import ProfilePage from './pages/ProfilePage';
+import RecommendationsPage from './pages/RecommendationsPage';
+import RecommendationDetailPage from './pages/RecommendationDetailPage';
 
-// Main App - sets up routing for all pages
 function App() {
   return (
-    <Router>
-      {/* ScrollToTop makes sure page starts from top on route change */}
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/assessment" element={<SkillAssessmentPage />} />
-        <Route path="/dashboard" element={<DashboardPage />} />
-      </Routes>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <ScrollToTop />
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            duration: 3500,
+            style: { fontFamily: 'Inter, sans-serif', fontSize: '14px', borderRadius: '12px' },
+            success: { iconTheme: { primary: '#6366f1', secondary: '#fff' } },
+          }}
+        />
+        <Routes>
+          {/* Public routes */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+
+          {/* Protected routes */}
+          <Route element={<ProtectedRoute />}>
+            <Route path="/dashboard" element={<DashboardPage />} />
+            <Route path="/assessment" element={<SkillAssessmentPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/recommendations" element={<RecommendationsPage />} />
+            <Route path="/recommendations/:id" element={<RecommendationDetailPage />} />
+          </Route>
+        </Routes>
+      </Router>
+    </AuthProvider>
   );
 }
 
