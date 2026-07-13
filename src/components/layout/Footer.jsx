@@ -52,7 +52,7 @@ export default function Footer() {
     legal: [
       { label: 'Privacy Policy', href: '#' },
       { label: 'Terms & Conditions', href: '#' },
-      { label: 'Feedback & Suggestions', href: 'mailto:tilak.23cse@bmu.edu.in?subject=Feedback%20and%20Suggestions%20for%20EntreSkill%20Hub' },
+      { label: 'Feedback & Suggestions', href: '/feedback' },
       { label: 'Contact', href: '#' },
     ],
   };

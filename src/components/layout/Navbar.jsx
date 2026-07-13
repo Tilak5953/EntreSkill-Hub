@@ -41,13 +41,13 @@ export default function Navbar() {
     { label: 'Assessment', href: '/assessment' },
     { label: 'Businesses', href: '/recommendations' },
     { label: 'Profile', href: '/profile' },
-    { label: 'Feedback', href: 'mailto:tilak.23cse@bmu.edu.in?subject=Feedback%20for%20EntreSkill%20Hub', external: true },
+    { label: 'Feedback', href: '/feedback' },
   ];
 
   const publicLinks = [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/#about', anchor: true },
-    { label: 'Feedback', href: 'mailto:tilak.23cse@bmu.edu.in?subject=Feedback%20for%20EntreSkill%20Hub', external: true },
+    { label: 'Feedback', href: '/feedback' },
   ];
 
   const links = user ? authLinks : publicLinks;

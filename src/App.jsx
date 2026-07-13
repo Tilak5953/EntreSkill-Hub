@@ -16,6 +16,7 @@ import DashboardPage from './pages/DashboardPage';
 import ProfilePage from './pages/ProfilePage';
 import RecommendationsPage from './pages/RecommendationsPage';
 import RecommendationDetailPage from './pages/RecommendationDetailPage';
+import FeedbackPage from './pages/FeedbackPage';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/recommendations" element={<RecommendationsPage />} />
             <Route path="/recommendations/:id" element={<RecommendationDetailPage />} />
+            <Route path="/feedback" element={<FeedbackPage />} />
           </Route>
         </Routes>
       </Router>

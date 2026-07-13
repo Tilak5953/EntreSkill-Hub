@@ -31,6 +31,7 @@ app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/assessment', require('./routes/assessmentRoutes'));
 app.use('/api/recommendations', require('./routes/recommendRoutes'));
 app.use('/api/saved', require('./routes/savedRoutes'));
+app.use('/api/feedback', require('./routes/feedbackRoutes'));
 
 // Health-check endpoint
 app.get('/', (req, res) => {
