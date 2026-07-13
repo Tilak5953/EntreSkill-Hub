@@ -27,7 +27,7 @@ const phases = [
     phase: 'Phase 3',
     title: 'Frontend Development',
     description: 'Building responsive React components with Tailwind CSS. Implementing all pages, routing, and interactive UI elements.',
-    status: 'active',
+    status: 'completed',
     date: 'Week 5–7',
     deliverables: ['React Components', 'Routing', 'Responsive UI'],
   },
@@ -36,7 +36,7 @@ const phases = [
     phase: 'Phase 4',
     title: 'Backend Development',
     description: 'Will implement REST APIs, user authentication (JWT), business recommendation logic, and all server-side operations.',
-    status: 'pending',
+    status: 'completed',
     date: 'Week 8–10',
     deliverables: ['REST APIs', 'Auth System', 'Business Logic'],
   },
@@ -45,7 +45,7 @@ const phases = [
     phase: 'Phase 5',
     title: 'Database Integration',
     description: 'Will design and integrate the database schema for users, skills, business ideas, roadmaps, and mentor data.',
-    status: 'pending',
+    status: 'completed',
     date: 'Week 11–12',
     deliverables: ['DB Schema', 'Data Models', 'CRUD Operations'],
   },
@@ -54,7 +54,7 @@ const phases = [
     phase: 'Phase 6',
     title: 'Testing & Deployment',
     description: 'Will perform unit testing, integration testing, bug fixing, and final deployment on a cloud hosting platform.',
-    status: 'pending',
+    status: 'completed',
     date: 'Week 13–14',
     deliverables: ['Test Cases', 'Bug Fixes', 'Live Deployment'],
   },
@@ -124,7 +124,7 @@ export default function ProjectProgressSection() {
           </div>
           <div className="flex justify-between mt-1.5">
             <span className="text-xs text-gray-400">{completedCount} of {phases.length} phases done</span>
-            <span className="text-xs text-gray-400">Frontend phase active</span>
+            <span className="text-xs text-gray-400">All development phases completed</span>
           </div>
         </div>
 
