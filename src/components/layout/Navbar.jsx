@@ -41,11 +41,13 @@ export default function Navbar() {
     { label: 'Assessment', href: '/assessment' },
     { label: 'Businesses', href: '/recommendations' },
     { label: 'Profile', href: '/profile' },
+    { label: 'Feedback', href: 'mailto:tilak.23cse@bmu.edu.in?subject=Feedback%20for%20EntreSkill%20Hub', external: true },
   ];
 
   const publicLinks = [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/#about', anchor: true },
+    { label: 'Feedback', href: 'mailto:tilak.23cse@bmu.edu.in?subject=Feedback%20for%20EntreSkill%20Hub', external: true },
   ];
 
   const links = user ? authLinks : publicLinks;
@@ -59,7 +61,9 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-7">
             {links.map((link) =>
-              link.anchor ? (
+              link.external ? (
+                <a key={link.label} href={link.href} className="nav-link text-primary-600 font-semibold">{link.label}</a>
+              ) : link.anchor ? (
                 <a key={link.label} href={link.href} className="nav-link">{link.label}</a>
               ) : (
                 <Link key={link.label} to={link.href} className={`nav-link ${pathname === link.href ? 'nav-link-active' : ''}`}>{link.label}</Link>
@@ -102,7 +106,9 @@ export default function Navbar() {
       <div className={`md:hidden transition-all duration-300 overflow-hidden ${mobileOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="bg-white/98 backdrop-blur-xl border-t border-gray-100 px-4 py-4 space-y-1">
           {links.map((link) =>
-            link.anchor ? (
+            link.external ? (
+              <a key={link.label} href={link.href} className="block px-4 py-3 rounded-xl font-semibold text-primary-600 hover:bg-primary-50 transition-all">{link.label}</a>
+            ) : link.anchor ? (
               <a key={link.label} href={link.href} className="block px-4 py-3 rounded-xl font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-all">{link.label}</a>
             ) : (
               <Link key={link.label} to={link.href} className="block px-4 py-3 rounded-xl font-medium text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-all">{link.label}</Link>
