@@ -12,12 +12,21 @@ const FooterSection = ({ title, links }) => (
     <ul className="space-y-2.5">
       {links.map((link) => (
         <li key={link.label}>
-          <Link
-            to={link.href}
-            className="text-gray-400 hover:text-white text-sm transition-colors duration-200 hover:translate-x-0.5 inline-block"
-          >
-            {link.label}
-          </Link>
+          {link.href.startsWith('mailto:') || link.href.startsWith('http') ? (
+            <a
+              href={link.href}
+              className="text-gray-400 hover:text-white text-sm transition-colors duration-200 hover:translate-x-0.5 inline-block"
+            >
+              {link.label}
+            </a>
+          ) : (
+            <Link
+              to={link.href}
+              className="text-gray-400 hover:text-white text-sm transition-colors duration-200 hover:translate-x-0.5 inline-block"
+            >
+              {link.label}
+            </Link>
+          )}
         </li>
       ))}
     </ul>
@@ -43,6 +52,7 @@ export default function Footer() {
     legal: [
       { label: 'Privacy Policy', href: '#' },
       { label: 'Terms & Conditions', href: '#' },
+      { label: 'Feedback & Suggestions', href: 'mailto:tilak.23cse@bmu.edu.in?subject=Feedback%20and%20Suggestions%20for%20EntreSkill%20Hub' },
       { label: 'Contact', href: '#' },
     ],
   };
