@@ -4,7 +4,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+  // Hardcoded production URL to ensure connection
+  baseURL: 'https://entreskill-hub-4dp4.onrender.com/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
