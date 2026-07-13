@@ -21,12 +21,7 @@ const app = express();
 // ----- Middleware -----
 
 // Enable CORS for frontend
-app.use(
-  cors({
-    origin: ['http://localhost:5173', 'https://entre-skill-hub-khaki.vercel.app'],
-    credentials: true,
-  })
-);
+app.use(cors());
 
 // Parse JSON request bodies
 app.use(express.json());
