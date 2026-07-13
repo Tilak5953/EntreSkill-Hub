@@ -10,7 +10,7 @@ const phases = [
     title: 'Requirement Analysis',
     description: 'Identified problem statement, target users, core features, and technology stack through research and mentor discussions.',
     status: 'completed',
-    date: 'Week 1–2',
+    date: 'Week 1',
     deliverables: ['SRS Document', 'Use Case Diagrams', 'Tech Stack Decision'],
   },
   {
@@ -19,7 +19,7 @@ const phases = [
     title: 'UI/UX Design',
     description: 'Designed wireframes and high-fidelity mockups for all pages. Established design system, color palette, and component library.',
     status: 'completed',
-    date: 'Week 3–4',
+    date: 'Week 2',
     deliverables: ['Wireframes', 'Design System', 'Page Mockups'],
   },
   {
@@ -28,7 +28,7 @@ const phases = [
     title: 'Frontend Development',
     description: 'Building responsive React components with Tailwind CSS. Implementing all pages, routing, and interactive UI elements.',
     status: 'completed',
-    date: 'Week 5–7',
+    date: 'Week 3',
     deliverables: ['React Components', 'Routing', 'Responsive UI'],
   },
   {
@@ -37,7 +37,7 @@ const phases = [
     title: 'Backend Development',
     description: 'Will implement REST APIs, user authentication (JWT), business recommendation logic, and all server-side operations.',
     status: 'completed',
-    date: 'Week 8–10',
+    date: 'Week 4',
     deliverables: ['REST APIs', 'Auth System', 'Business Logic'],
   },
   {
@@ -46,7 +46,7 @@ const phases = [
     title: 'Database Integration',
     description: 'Will design and integrate the database schema for users, skills, business ideas, roadmaps, and mentor data.',
     status: 'completed',
-    date: 'Week 11–12',
+    date: 'Week 5',
     deliverables: ['DB Schema', 'Data Models', 'CRUD Operations'],
   },
   {
@@ -55,7 +55,7 @@ const phases = [
     title: 'Testing & Deployment',
     description: 'Will perform unit testing, integration testing, bug fixing, and final deployment on a cloud hosting platform.',
     status: 'completed',
-    date: 'Week 13–14',
+    date: 'Week 6',
     deliverables: ['Test Cases', 'Bug Fixes', 'Live Deployment'],
   },
 ];
