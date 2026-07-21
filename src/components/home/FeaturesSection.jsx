@@ -4,6 +4,7 @@
 // -- Tilak Kumar
 
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const features = [
   {
@@ -16,6 +17,7 @@ const features = [
     bg: 'bg-primary-50',
     border: 'border-primary-100',
     tag: 'AI-Powered',
+    link: '/recommendations',
   },
   {
     id: 'business-roadmaps',
@@ -27,6 +29,7 @@ const features = [
     bg: 'bg-violet-50',
     border: 'border-violet-100',
     tag: 'Structured',
+    link: '/recommendations',
   },
   {
     id: 'learning-resources',
@@ -38,6 +41,7 @@ const features = [
     bg: 'bg-cyan-50',
     border: 'border-cyan-100',
     tag: 'Expert Curated',
+    link: '/learning',
   },
   {
     id: 'mentor-support',
@@ -49,6 +53,7 @@ const features = [
     bg: 'bg-emerald-50',
     border: 'border-emerald-100',
     tag: 'Live Sessions',
+    link: '/mentors',
   },
   {
     id: 'progress-tracking',
@@ -60,6 +65,7 @@ const features = [
     bg: 'bg-amber-50',
     border: 'border-amber-100',
     tag: 'Real-time',
+    link: '/progress',
   },
   {
     id: 'entrepreneurship-guidance',
@@ -71,6 +77,7 @@ const features = [
     bg: 'bg-rose-50',
     border: 'border-rose-100',
     tag: 'Personalised',
+    link: '/mentors',
   },
 ];
 
@@ -88,10 +95,11 @@ function FeatureCard({ feature, index }) {
   }, []);
 
   return (
-    <div
+    <Link
+      to={feature.link}
       ref={ref}
       id={feature.id}
-      className={`card p-6 group cursor-pointer transition-all duration-500 ${
+      className={`card p-6 group cursor-pointer transition-all duration-500 block text-left ${
         visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}
       style={{ transitionDelay: `${index * 80}ms` }}
@@ -133,7 +141,7 @@ function FeatureCard({ feature, index }) {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
         </svg>
       </div>
-    </div>
+    </Link>
   );
 }
 
