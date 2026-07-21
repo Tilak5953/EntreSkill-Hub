@@ -135,6 +135,36 @@ export default function RecommendationDetailPage() {
               <p className="text-gray-600 text-sm leading-relaxed">{rec.description}</p>
             </div>
 
+            {/* Business Roadmap */}
+            {rec.roadmap && rec.roadmap.length > 0 && (
+              <div className="card p-6">
+                <h2 className="font-display font-bold text-lg text-gray-900 mb-6">🗺️ Execution Roadmap</h2>
+                <div className="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+                  {rec.roadmap.map((phase, index) => (
+                    <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-primary-100 text-primary-600 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <span className="font-bold text-sm">{index + 1}</span>
+                      </div>
+                      <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-gray-100 shadow-sm bg-white hover:border-primary-200 transition-colors">
+                        <div className="flex justify-between items-center mb-2">
+                          <h3 className="font-bold text-gray-900">{phase.phase}</h3>
+                          <span className="text-xs font-semibold px-2 py-1 bg-gray-100 text-gray-600 rounded-full">{phase.duration}</span>
+                        </div>
+                        <ul className="space-y-1">
+                          {phase.tasks.map((task, tIdx) => (
+                            <li key={tIdx} className="text-sm text-gray-600 flex items-start gap-2">
+                              <span className="text-primary-500 mt-0.5">•</span>
+                              {task}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Advantages */}
             <div className="card p-6">
               <h2 className="font-display font-bold text-lg text-gray-900 mb-4">✅ Advantages</h2>

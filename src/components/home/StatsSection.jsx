@@ -18,7 +18,7 @@ const stats = [
   {
     id: 'stat-ideas',
     icon: '💡',
-    label: '850+ Business Ideas',
+    label: '40+ Business Ideas',
     sublabel: 'Curated startup categories',
     color: 'from-amber-500 to-orange-500',
     tag: 'Database Ready',
@@ -29,15 +29,15 @@ const stats = [
     label: 'Mentor Module',
     sublabel: 'Expert connect feature',
     color: 'from-emerald-500 to-teal-500',
-    tag: 'In Progress',
+    tag: 'Completed',
   },
   {
     id: 'stat-categories',
     icon: '🗂️',
-    label: '12 Business Categories',
+    label: '20 Business Categories',
     sublabel: 'Across industries & skills',
     color: 'from-rose-500 to-pink-500',
-    tag: 'Defined',
+    tag: 'Completed',
   },
 ];
 

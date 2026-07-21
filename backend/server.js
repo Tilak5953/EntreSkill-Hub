@@ -32,6 +32,9 @@ app.use('/api/assessment', require('./routes/assessmentRoutes'));
 app.use('/api/recommendations', require('./routes/recommendRoutes'));
 app.use('/api/saved', require('./routes/savedRoutes'));
 app.use('/api/feedback', require('./routes/feedbackRoutes'));
+app.use('/api/mentors', require('./routes/mentorRoutes'));
+app.use('/api/learning', require('./routes/learningRoutes'));
+app.use('/api/progress', require('./routes/progressRoutes'));
 
 // Health-check endpoint
 app.get('/', (req, res) => {

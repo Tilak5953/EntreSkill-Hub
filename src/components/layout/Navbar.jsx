@@ -38,10 +38,12 @@ export default function Navbar() {
 
   const authLinks = [
     { label: 'Dashboard', href: '/dashboard' },
+    { label: 'Progress', href: '/progress' },
     { label: 'Assessment', href: '/assessment' },
     { label: 'Businesses', href: '/recommendations' },
+    { label: 'Mentors', href: '/mentors' },
+    { label: 'Resources', href: '/learning' },
     { label: 'Profile', href: '/profile' },
-    { label: 'Feedback', href: '/feedback' },
   ];
 
   const publicLinks = [

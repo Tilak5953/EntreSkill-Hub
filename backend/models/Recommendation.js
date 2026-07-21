@@ -31,6 +31,13 @@ const recommendationSchema = new mongoose.Schema(
       skillTags: [String],
       interests: [String],
     },
+    roadmap: [
+      {
+        phase: String,
+        duration: String,
+        tasks: [String]
+      }
+    ],
     isActive: { type: Boolean, default: true },
   },
   { timestamps: true }

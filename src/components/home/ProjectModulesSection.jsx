@@ -12,8 +12,8 @@ const modules = [
     description:
       'A guided form that collects user skills, experience level, interest area, and available budget to generate personalised recommendations.',
     features: ['Multi-step form', 'Skill categorisation', 'Interest mapping'],
-    status: 'In Progress',
-    statusColor: 'bg-amber-100 text-amber-700 border-amber-200',
+    status: 'Completed',
+    statusColor: 'bg-emerald-100 text-emerald-700 border-emerald-200',
     color: 'from-primary-500 to-violet-500',
     bg: 'bg-primary-50',
   },
@@ -23,10 +23,10 @@ const modules = [
     number: '02',
     title: 'Business Idea Recommendation',
     description:
-      'Matches user skill profile with a curated database of 850+ business ideas using a rule-based recommendation algorithm.',
-    features: ['Rule-based matching', '12 categories', 'Filtered results'],
-    status: 'Planned',
-    statusColor: 'bg-blue-100 text-blue-700 border-blue-200',
+      'Matches user skill profile with a curated database of 40+ business ideas using a rule-based recommendation algorithm.',
+    features: ['Rule-based matching', '20 categories', 'Filtered results'],
+    status: 'Completed',
+    statusColor: 'bg-emerald-100 text-emerald-700 border-emerald-200',
     color: 'from-violet-500 to-purple-600',
     bg: 'bg-violet-50',
   },
@@ -38,8 +38,8 @@ const modules = [
     description:
       'Step-by-step structured plans for each business category — from idea validation and setup to launch and growth milestones.',
     features: ['Phase-based plan', 'Checklist format', 'Progress saving'],
-    status: 'Planned',
-    statusColor: 'bg-blue-100 text-blue-700 border-blue-200',
+    status: 'Completed',
+    statusColor: 'bg-emerald-100 text-emerald-700 border-emerald-200',
     color: 'from-cyan-500 to-blue-500',
     bg: 'bg-cyan-50',
   },
@@ -51,8 +51,8 @@ const modules = [
     description:
       'A curated library of entrepreneurship articles, video links, government schemes, and financial literacy content.',
     features: ['Category-wise content', 'External links', 'Bookmarking'],
-    status: 'Planned',
-    statusColor: 'bg-blue-100 text-blue-700 border-blue-200',
+    status: 'Completed',
+    statusColor: 'bg-emerald-100 text-emerald-700 border-emerald-200',
     color: 'from-emerald-500 to-teal-500',
     bg: 'bg-emerald-50',
   },
@@ -64,8 +64,8 @@ const modules = [
     description:
       'A directory of available mentors with domain expertise. Users can browse profiles and request guidance sessions.',
     features: ['Mentor profiles', 'Domain filters', 'Session requests'],
-    status: 'Planned',
-    statusColor: 'bg-blue-100 text-blue-700 border-blue-200',
+    status: 'Completed',
+    statusColor: 'bg-emerald-100 text-emerald-700 border-emerald-200',
     color: 'from-amber-500 to-orange-500',
     bg: 'bg-amber-50',
   },
@@ -77,8 +77,8 @@ const modules = [
     description:
       'A personal dashboard showing completed roadmap steps, saved business ideas, learning progress, and overall journey status.',
     features: ['Visual dashboard', 'Milestone tracking', 'Activity log'],
-    status: 'Planned',
-    statusColor: 'bg-blue-100 text-blue-700 border-blue-200',
+    status: 'Completed',
+    statusColor: 'bg-emerald-100 text-emerald-700 border-emerald-200',
     color: 'from-rose-500 to-pink-500',
     bg: 'bg-rose-50',
   },
@@ -153,7 +153,7 @@ export default function ProjectModulesSection() {
             <span className="text-lg">📋</span>
             <span className="text-sm text-gray-600">
               Module development follows iterative PS-II project timeline —{' '}
-              <span className="font-semibold text-primary-600">Module 1 & UI currently active</span>
+              <span className="font-semibold text-emerald-600">All Modules Completed</span>
             </span>
           </div>
         </div>
