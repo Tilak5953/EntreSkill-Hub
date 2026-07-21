@@ -131,8 +131,22 @@ export default function RecommendationDetailPage() {
           <div className="lg:col-span-2 space-y-5">
             {/* Overview */}
             <div className="card p-6">
-              <h2 className="font-display font-bold text-lg text-gray-900 mb-3">📋 Overview</h2>
-              <p className="text-gray-600 text-sm leading-relaxed">{rec.description}</p>
+              <h2 className="font-display font-bold text-lg text-gray-900 mb-3">📋 Overview & Market Analysis</h2>
+              <p className="text-gray-600 text-sm leading-relaxed mb-4">{rec.description}</p>
+              
+              {rec.marketAnalysis && (
+                <>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2 mt-4">Market Potential</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">{rec.marketAnalysis}</p>
+                </>
+              )}
+              
+              {rec.targetAudience && (
+                <>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2 mt-4">Target Audience</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed bg-primary-50 p-4 rounded-xl border border-primary-100">{rec.targetAudience}</p>
+                </>
+              )}
             </div>
 
             {/* Business Roadmap */}
@@ -178,10 +192,39 @@ export default function RecommendationDetailPage() {
               </ul>
             </div>
 
-            {/* Challenges */}
+            {/* Legal & Compliance */}
+            {rec.legalRequirements && rec.legalRequirements.length > 0 && (
+              <div className="card p-6 border-l-4 border-l-blue-500">
+                <h2 className="font-display font-bold text-lg text-gray-900 mb-4">⚖️ Legal & Compliance Requirements</h2>
+                <div className="flex flex-wrap gap-2">
+                  {rec.legalRequirements.map((req, i) => (
+                    <span key={i} className="bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-2 rounded-lg border border-blue-100">
+                      🏛️ {req}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Marketing Strategy */}
+            {rec.marketingStrategy && rec.marketingStrategy.length > 0 && (
+              <div className="card p-6">
+                <h2 className="font-display font-bold text-lg text-gray-900 mb-4">📢 Suggested Marketing Channels</h2>
+                <div className="grid grid-cols-2 gap-3">
+                  {rec.marketingStrategy.map((strat, i) => (
+                    <div key={i} className="flex items-center gap-2 p-3 bg-gray-50 rounded-lg border border-gray-100">
+                      <span className="text-primary-500">↗</span>
+                      <span className="text-sm text-gray-700 font-medium">{strat}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Challenges & Pitfalls */}
             <div className="card p-6">
-              <h2 className="font-display font-bold text-lg text-gray-900 mb-4">⚠️ Challenges</h2>
-              <ul className="space-y-2">
+              <h2 className="font-display font-bold text-lg text-gray-900 mb-4">⚠️ Challenges & Common Pitfalls</h2>
+              <ul className="space-y-3 mb-4">
                 {rec.challenges?.map((c, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-gray-700">
                     <span className="w-5 h-5 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">!</span>
@@ -189,6 +232,19 @@ export default function RecommendationDetailPage() {
                   </li>
                 ))}
               </ul>
+              {rec.commonPitfalls && rec.commonPitfalls.length > 0 && (
+                <div className="mt-4 pt-4 border-t border-gray-100">
+                  <h3 className="text-sm font-bold text-red-600 mb-3">Red Flags to Avoid:</h3>
+                  <ul className="space-y-2">
+                    {rec.commonPitfalls.map((pitfall, i) => (
+                      <li key={i} className="flex items-start gap-3 text-sm text-gray-600">
+                        <span className="text-red-500 mt-0.5">✕</span>
+                        {pitfall}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
 
             {/* Success Tips */}
@@ -224,6 +280,12 @@ export default function RecommendationDetailPage() {
                   <RiskBadge level={rec.riskLevel} />
                 </div>
               </div>
+              {rec.roiTimeline && (
+                <div className="mt-4 p-4 bg-emerald-50 rounded-xl border border-emerald-100">
+                  <h3 className="text-xs font-bold text-emerald-800 uppercase tracking-wider mb-2">ROI Timeline</h3>
+                  <p className="text-xs text-emerald-700 leading-relaxed">{rec.roiTimeline}</p>
+                </div>
+              )}
             </div>
 
             {/* Required Skills */}

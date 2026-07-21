@@ -24,6 +24,12 @@ const recommendationSchema = new mongoose.Schema(
     successTips: [String],
     growthPotential: String,
     futureScope: String,
+    marketAnalysis: String,
+    targetAudience: String,
+    legalRequirements: [String],
+    roiTimeline: String,
+    marketingStrategy: [String],
+    commonPitfalls: [String],
     suitableFor: {
       education: [String],
       experience: [String],
