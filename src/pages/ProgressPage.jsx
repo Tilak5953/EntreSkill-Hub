@@ -1,21 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import api from '../utils/api';
+
 const ProgressPage = () => {
   const [progressData, setProgressData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    fetch('https://entre-skill-hub.onrender.com/api/progress', {
-      headers: {
-        Authorization: `Bearer ${token}`
-      }
-    })
-      .then(res => res.json())
-      .then(data => {
-        if (data.success) {
-          setProgressData(data.progress);
+    api.get('/progress')
+      .then(res => {
+        if (res.data.success) {
+          setProgressData(res.data.progress);
         }
         setLoading(false);
       })

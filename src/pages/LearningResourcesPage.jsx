@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import api from '../utils/api';
 
 const LearningResourcesPage = () => {
   const [resources, setResources] = useState([]);
@@ -7,11 +8,10 @@ const LearningResourcesPage = () => {
   const [typeFilter, setTypeFilter] = useState('All');
 
   useEffect(() => {
-    fetch('https://entre-skill-hub.onrender.com/api/learning')
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.success) {
-          setResources(data.resources);
+    api.get('/learning')
+      .then((res) => {
+        if (res.data.success) {
+          setResources(res.data.resources);
         }
         setLoading(false);
       })

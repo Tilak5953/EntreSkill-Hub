@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import api from '../utils/api';
 
 const MentorPage = () => {
   const [mentors, setMentors] = useState([]);
@@ -6,11 +7,10 @@ const MentorPage = () => {
   const [filter, setFilter] = useState('All');
 
   useEffect(() => {
-    fetch('https://entre-skill-hub.onrender.com/api/mentors')
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.success) {
-          setMentors(data.mentors);
+    api.get('/mentors')
+      .then((res) => {
+        if (res.data.success) {
+          setMentors(res.data.mentors);
         }
         setLoading(false);
       })
