@@ -1,5 +1,5 @@
 const Assessment = require('../models/Assessment');
-const Saved = require('../models/Saved');
+const SavedRecommendation = require('../models/SavedRecommendation');
 const User = require('../models/User');
 
 // @desc    Get user progress summary
@@ -11,7 +11,7 @@ const getUserProgress = async (req, res) => {
 
     const user = await User.findById(userId);
     const assessment = await Assessment.findOne({ user: userId });
-    const savedIdeas = await Saved.countDocuments({ user: userId });
+    const savedIdeas = await SavedRecommendation.countDocuments({ user: userId });
 
     let completionPercentage = 20; // 20% for creating an account
     
