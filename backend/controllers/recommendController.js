@@ -61,13 +61,12 @@ const seedRecommendations = async (req, res) => {
     let skippedCount = 0;
 
     for (const business of businessesData) {
-      const exists = await Recommendation.findOne({ name: business.name });
-      if (!exists) {
-        await Recommendation.create(business);
-        insertedCount++;
-      } else {
-        skippedCount++;
-      }
+      const result = await Recommendation.findOneAndUpdate(
+        { name: business.name },
+        business,
+        { upsert: true, new: true, setDefaultsOnInsert: true }
+      );
+      if (result) insertedCount++;
     }
 
     res.json({
