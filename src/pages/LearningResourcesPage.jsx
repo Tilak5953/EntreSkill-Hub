@@ -44,89 +44,124 @@ const LearningResourcesPage = () => {
     }
   };
 
-  return (
-    <div className="min-h-screen bg-gray-50 py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Learning Resources</h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Curated articles, videos, and courses to help you master every aspect of entrepreneurship.
-          </p>
-        </div>
+  const getDifficultyColor = (diff) => {
+    if (diff === 'Beginner') return 'bg-emerald-100 text-emerald-700 border-emerald-200';
+    if (diff === 'Intermediate') return 'bg-amber-100 text-amber-700 border-amber-200';
+    return 'bg-rose-100 text-rose-700 border-rose-200';
+  };
 
-        {/* Filters */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-8 bg-white p-4 rounded-xl shadow-sm border border-gray-100">
-          <div className="flex items-center space-x-2 w-full md:w-auto">
-            <span className="text-sm font-medium text-gray-500">Category:</span>
-            <select 
-              value={categoryFilter} 
-              onChange={(e) => setCategoryFilter(e.target.value)}
-              className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm rounded-md"
-            >
-              {categories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
-            </select>
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Premium Hero Section */}
+      <div className="bg-gradient-to-br from-primary-900 to-violet-950 pt-24 pb-32 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10 dot-grid-white" />
+        <div className="absolute -right-32 top-0 w-[500px] h-[500px] bg-primary-500/20 rounded-full blur-[100px]" />
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-3xl">
+            <span className="inline-block py-1.5 px-4 rounded-full bg-white/10 border border-white/20 text-primary-200 text-sm font-bold tracking-wide mb-6 backdrop-blur-md">
+              Knowledge Hub
+            </span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-white mb-6 leading-tight">
+              Master the Art of <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-cyan-300">Entrepreneurship</span>
+            </h1>
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl">
+              Access premium masterclasses, real-world case studies, and official government MSME schemes curated specifically for Indian founders.
+            </p>
           </div>
-          <div className="flex items-center space-x-2 w-full md:w-auto">
-            <span className="text-sm font-medium text-gray-500">Format:</span>
-            <div className="flex bg-gray-100 p-1 rounded-lg">
-              {types.map(t => (
-                <button
-                  key={t}
-                  onClick={() => setTypeFilter(t)}
-                  className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors ${
-                    typeFilter === t ? 'bg-white text-primary-600 shadow-sm' : 'text-gray-500 hover:text-gray-900'
-                  }`}
-                >
-                  {t}
-                </button>
-              ))}
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-12 relative z-20 pb-24">
+        {/* Modern Filters */}
+        <div className="bg-white/90 backdrop-blur-xl p-6 rounded-2xl shadow-xl border border-gray-100 flex flex-col md:flex-row justify-between items-center gap-6 mb-12">
+          <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
+            <div className="flex items-center space-x-3 w-full sm:w-auto bg-gray-50 px-4 py-2 rounded-xl border border-gray-200">
+              <span className="text-sm font-bold text-gray-500 uppercase tracking-wider">Topic:</span>
+              <select 
+                value={categoryFilter} 
+                onChange={(e) => setCategoryFilter(e.target.value)}
+                className="bg-transparent border-none focus:ring-0 text-gray-900 font-semibold cursor-pointer py-1"
+              >
+                {categories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
+              </select>
             </div>
+          </div>
+          
+          <div className="flex bg-gray-100 p-1.5 rounded-xl w-full md:w-auto">
+            {types.map(t => (
+              <button
+                key={t}
+                onClick={() => setTypeFilter(t)}
+                className={`flex-1 md:flex-none px-6 py-2 text-sm font-bold rounded-lg transition-all duration-300 ${
+                  typeFilter === t 
+                    ? 'bg-white text-primary-600 shadow-md transform scale-[1.02]' 
+                    : 'text-gray-500 hover:text-gray-900 hover:bg-gray-200/50'
+                }`}
+              >
+                {t}
+              </button>
+            ))}
           </div>
         </div>
 
         {loading ? (
           <div className="flex justify-center py-20">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary-600"></div>
+            <div className="w-16 h-16 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin"></div>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredResources.map((resource) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filteredResources.map((resource, index) => (
               <a 
                 href={resource.link} 
                 target="_blank" 
                 rel="noreferrer"
                 key={resource._id} 
-                className="block bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-primary-100 transition-all duration-200 group"
+                className="group relative bg-white rounded-3xl p-8 shadow-sm border border-gray-100 hover:shadow-2xl hover:border-primary-200 transition-all duration-500 flex flex-col h-full overflow-hidden"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="flex justify-between items-start mb-4">
-                  <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-50 text-primary-700">
-                    {resource.category}
-                  </span>
-                  <div className="flex items-center space-x-1 text-gray-400">
-                    {getTypeIcon(resource.type)}
-                    <span className="text-xs font-medium">{resource.type}</span>
+                {/* Hover Gradient Background */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-violet-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                
+                <div className="relative z-10 flex-1 flex flex-col">
+                  {/* Tags */}
+                  <div className="flex justify-between items-start mb-6">
+                    <span className="inline-flex items-center px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider bg-primary-100 text-primary-700">
+                      {resource.category}
+                    </span>
+                    <div className="flex items-center space-x-1.5 text-gray-500 bg-gray-100 px-3 py-1 rounded-lg">
+                      {getTypeIcon(resource.type)}
+                      <span className="text-xs font-bold">{resource.type}</span>
+                    </div>
                   </div>
-                </div>
-                
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors">
-                  {resource.title}
-                </h3>
-                
-                <p className="text-gray-600 text-sm mb-6 line-clamp-3">
-                  {resource.description}
-                </p>
+                  
+                  <h3 className="text-2xl font-display font-bold text-gray-900 mb-4 group-hover:text-primary-700 transition-colors leading-tight">
+                    {resource.title}
+                  </h3>
+                  
+                  <p className="text-gray-600 text-sm leading-relaxed mb-8 flex-1">
+                    {resource.description}
+                  </p>
 
-                <div className="flex justify-between items-center mt-auto pt-4 border-t border-gray-100">
-                  <span className={`text-xs font-semibold px-2 py-1 rounded ${
-                    resource.difficulty === 'Beginner' ? 'bg-green-100 text-green-700' :
-                    resource.difficulty === 'Intermediate' ? 'bg-yellow-100 text-yellow-700' :
-                    'bg-red-100 text-red-700'
-                  }`}>
-                    {resource.difficulty}
-                  </span>
-                  <span className="text-xs text-gray-500 font-medium">
-                    ⏱ {resource.readTime}
-                  </span>
+                  {/* Footer details */}
+                  <div className="flex justify-between items-center pt-6 border-t border-gray-100 group-hover:border-primary-200/50 transition-colors">
+                    <span className={`text-xs font-bold px-3 py-1.5 rounded-lg border ${getDifficultyColor(resource.difficulty)}`}>
+                      {resource.difficulty}
+                    </span>
+                    
+                    <div className="flex items-center gap-4">
+                      <span className="text-sm font-semibold text-gray-500 flex items-center gap-1.5">
+                        ⏱ {resource.readTime}
+                      </span>
+                      
+                      <div className="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center text-white transform group-hover:bg-primary-600 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-md">
+                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </a>
             ))}
