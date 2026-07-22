@@ -44,6 +44,29 @@ const recommendationSchema = new mongoose.Schema(
         tasks: [String]
       }
     ],
+    unitEconomics: [
+      {
+        metric: String,
+        value: String
+      }
+    ],
+    capexBreakdown: [
+      {
+        item: String,
+        cost: String
+      }
+    ],
+    techStack: [
+      {
+        tool: String,
+        purpose: String
+      }
+    ],
+    successStory: {
+      name: String,
+      revenue: String,
+      description: String
+    },
     isActive: { type: Boolean, default: true },
   },
   { timestamps: true }

@@ -1,4 +1,4 @@
-// RecommendationDetailPage — Full business detail view
+// RecommendationDetailPage — Full business detail view with Advanced Analytics
 // Developer: Tilak Kumar | BML Munjal University | PS-II Internship
 
 import { useState, useEffect } from 'react';
@@ -17,7 +17,7 @@ function Header() {
   const { logout } = useAuth();
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2.5">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-violet-600 flex items-center justify-center">
             <span className="text-white font-bold text-sm font-display">E</span>
@@ -99,75 +99,122 @@ export default function RecommendationDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 pb-20">
       <Header />
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
-        {/* Hero header */}
-        <div className="rounded-2xl bg-gradient-to-r from-primary-600 to-violet-700 p-6 sm:p-10 mb-8 text-white relative overflow-hidden">
-          <div className="absolute inset-0 opacity-5 dot-grid" />
-          <div className="relative">
-            <div className="flex items-start justify-between gap-4">
-              <div className="flex-1">
-                <span className="inline-block bg-white/20 text-white text-xs font-semibold px-3 py-1 rounded-full mb-3">{rec.category}</span>
-                <h1 className="font-display font-extrabold text-2xl sm:text-4xl mb-3">{rec.name}</h1>
-                <div className="flex flex-wrap items-center gap-3">
-                  <RiskBadge level={rec.riskLevel} />
-                  <span className="text-white/80 text-sm">💰 {rec.investment?.display}</span>
-                  <span className="text-white/80 text-sm">📈 {rec.profitPotential}</span>
-                </div>
+
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 mt-8">
+        {/* Premium Dashboard Hero */}
+        <div className="bg-gradient-to-br from-gray-900 to-indigo-900 rounded-3xl p-8 sm:p-12 mb-8 shadow-2xl relative overflow-hidden">
+          <div className="absolute inset-0 opacity-10 dot-grid-white" />
+          <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary-500/20 rounded-full blur-3xl" />
+          
+          <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            <div>
+              <span className="inline-block py-1 px-3 rounded-full bg-white/10 text-primary-200 text-xs font-bold uppercase tracking-wider mb-4 border border-white/10">
+                {rec.category}
+              </span>
+              <h1 className="text-3xl sm:text-5xl font-display font-extrabold text-white mb-4 tracking-tight leading-tight">
+                {rec.name}
+              </h1>
+              <div className="flex flex-wrap gap-4 text-sm font-medium text-gray-300">
+                <span className="flex items-center gap-1.5 bg-gray-800/50 px-3 py-1.5 rounded-lg border border-gray-700">
+                  <span>💰</span> Min: {rec.investment?.display || 'Varied'}
+                </span>
+                <span className="flex items-center gap-1.5 bg-gray-800/50 px-3 py-1.5 rounded-lg border border-gray-700">
+                  <span>📈</span> {rec.profitPotential}
+                </span>
               </div>
-              <button
-                onClick={toggleSave}
-                className={`flex-shrink-0 px-5 py-2.5 rounded-xl font-semibold text-sm transition-all ${saved ? 'bg-white text-primary-700 hover:bg-gray-100' : 'bg-white/20 text-white border border-white/30 hover:bg-white/30'}`}
-              >
-                {saved ? '🔖 Saved' : '📌 Save Business'}
-              </button>
             </div>
+            <button 
+              onClick={toggleSave} 
+              className={`px-6 py-3 rounded-xl font-bold flex items-center gap-2 transition-all shadow-lg ${saved ? 'bg-emerald-500 text-white hover:bg-emerald-600' : 'bg-white text-gray-900 hover:bg-gray-100'}`}
+            >
+              {saved ? '★ Saved Business' : '☆ Save Business'}
+            </button>
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-6">
-          {/* Main content */}
-          <div className="lg:col-span-2 space-y-5">
-            {/* Overview */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-lg text-gray-900 mb-3">📋 Overview & Market Analysis</h2>
-              <p className="text-gray-600 text-sm leading-relaxed mb-4">{rec.description}</p>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Main Content Column */}
+          <div className="lg:col-span-2 space-y-8">
+            
+            {/* Overview Section */}
+            <div className="card">
+              <h2 className="text-xl font-display font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span>📋</span> Executive Summary
+              </h2>
+              <p className="text-gray-600 leading-relaxed text-lg">{rec.description}</p>
               
               {rec.marketAnalysis && (
-                <>
-                  <h3 className="font-semibold text-gray-900 text-sm mb-2 mt-4">Market Potential</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-4">{rec.marketAnalysis}</p>
-                </>
+                <div className="mt-6 pt-6 border-t border-gray-100">
+                  <h3 className="font-bold text-gray-900 mb-2">Market Analysis</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{rec.marketAnalysis}</p>
+                </div>
               )}
-              
               {rec.targetAudience && (
-                <>
-                  <h3 className="font-semibold text-gray-900 text-sm mb-2 mt-4">Target Audience</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed bg-primary-50 p-4 rounded-xl border border-primary-100">{rec.targetAudience}</p>
-                </>
+                <div className="mt-4 p-4 bg-primary-50 rounded-xl border border-primary-100">
+                  <h3 className="font-bold text-primary-900 mb-1 text-sm">Target Audience</h3>
+                  <p className="text-primary-700 text-sm">{rec.targetAudience}</p>
+                </div>
               )}
             </div>
 
-            {/* Business Roadmap */}
+            {/* NEW: Unit Economics (If available) */}
+            {rec.unitEconomics && rec.unitEconomics.length > 0 && (
+              <div className="card border-t-4 border-t-emerald-500">
+                <h2 className="text-xl font-display font-bold text-gray-900 mb-6 flex items-center gap-2">
+                  <span>📊</span> Unit Economics (Per Sale Profitability)
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {rec.unitEconomics.map((ue, idx) => (
+                    <div key={idx} className="bg-gray-50 p-4 rounded-xl border border-gray-100 flex justify-between items-center">
+                      <span className="text-sm font-medium text-gray-600">{ue.metric}</span>
+                      <span className="text-lg font-bold text-gray-900">{ue.value}</span>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-xs text-gray-400 mt-4 text-center">These are estimated benchmarks for the Indian market.</p>
+              </div>
+            )}
+
+            {/* NEW: CapEx Breakdown (If available) */}
+            {rec.capexBreakdown && rec.capexBreakdown.length > 0 && (
+              <div className="card">
+                <h2 className="text-xl font-display font-bold text-gray-900 mb-6 flex items-center gap-2">
+                  <span>💸</span> Capital Expenditure (Setup Costs)
+                </h2>
+                <div className="space-y-3">
+                  {rec.capexBreakdown.map((item, idx) => (
+                    <div key={idx} className="flex justify-between items-center p-3 hover:bg-gray-50 rounded-lg transition-colors border-b border-gray-50 last:border-0">
+                      <span className="text-gray-700 font-medium">{item.item}</span>
+                      <span className="text-primary-600 font-bold">{item.cost}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Execution Roadmap */}
             {rec.roadmap && rec.roadmap.length > 0 && (
-              <div className="card p-6">
-                <h2 className="font-display font-bold text-lg text-gray-900 mb-6">🗺️ Execution Roadmap</h2>
-                <div className="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
-                  {rec.roadmap.map((phase, index) => (
-                    <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                      <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-primary-100 text-primary-600 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-                        <span className="font-bold text-sm">{index + 1}</span>
-                      </div>
-                      <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-gray-100 shadow-sm bg-white hover:border-primary-200 transition-colors">
-                        <div className="flex justify-between items-center mb-2">
+              <div className="card">
+                <h2 className="text-xl font-display font-bold text-gray-900 mb-8 flex items-center gap-2">
+                  <span>🗺️</span> Execution Roadmap
+                </h2>
+                <div className="relative border-l-2 border-primary-100 ml-4 space-y-10 pb-4">
+                  {rec.roadmap.map((phase, idx) => (
+                    <div key={idx} className="relative pl-8">
+                      <div className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-primary-500 ring-4 ring-white shadow-sm" />
+                      <div className="bg-gray-50 rounded-xl p-5 border border-gray-100 hover:shadow-md transition-shadow">
+                        <div className="flex justify-between items-center mb-3">
                           <h3 className="font-bold text-gray-900">{phase.phase}</h3>
-                          <span className="text-xs font-semibold px-2 py-1 bg-gray-100 text-gray-600 rounded-full">{phase.duration}</span>
+                          <span className="text-xs font-semibold text-primary-600 bg-primary-50 px-2 py-1 rounded-md">
+                            {phase.duration}
+                          </span>
                         </div>
-                        <ul className="space-y-1">
+                        <ul className="space-y-2">
                           {phase.tasks.map((task, tIdx) => (
                             <li key={tIdx} className="text-sm text-gray-600 flex items-start gap-2">
-                              <span className="text-primary-500 mt-0.5">•</span>
+                              <span className="text-primary-400 mt-0.5">•</span>
                               {task}
                             </li>
                           ))}
@@ -178,146 +225,96 @@ export default function RecommendationDetailPage() {
                 </div>
               </div>
             )}
+          </div>
 
-            {/* Advantages */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-lg text-gray-900 mb-4">✅ Advantages</h2>
-              <ul className="space-y-2">
-                {rec.advantages?.map((a, i) => (
-                  <li key={i} className="flex items-start gap-3 text-sm text-gray-700">
-                    <span className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">✓</span>
-                    {a}
-                  </li>
-                ))}
-              </ul>
+          {/* Sidebar Column */}
+          <div className="space-y-6">
+            
+            {/* Risk & Investment Card */}
+            <div className="card bg-gradient-to-b from-white to-gray-50 border-gray-200">
+              <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span>⚡</span> Risk Assessment
+              </h3>
+              <div className="space-y-4">
+                <div className="flex justify-between items-center pb-4 border-b border-gray-100">
+                  <span className="text-gray-500 text-sm">Risk Level</span>
+                  <RiskBadge level={rec.riskLevel} />
+                </div>
+                {rec.roiTimeline && (
+                  <div className="bg-primary-50 p-4 rounded-xl border border-primary-100">
+                    <span className="block text-xs font-bold text-primary-800 uppercase tracking-wide mb-1">ROI Timeline</span>
+                    <p className="text-sm text-primary-900 font-medium">{rec.roiTimeline}</p>
+                  </div>
+                )}
+              </div>
             </div>
 
-            {/* Legal & Compliance */}
-            {rec.legalRequirements && rec.legalRequirements.length > 0 && (
-              <div className="card p-6 border-l-4 border-l-blue-500">
-                <h2 className="font-display font-bold text-lg text-gray-900 mb-4">⚖️ Legal & Compliance Requirements</h2>
-                <div className="flex flex-wrap gap-2">
-                  {rec.legalRequirements.map((req, i) => (
-                    <span key={i} className="bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-2 rounded-lg border border-blue-100">
-                      🏛️ {req}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Marketing Strategy */}
-            {rec.marketingStrategy && rec.marketingStrategy.length > 0 && (
-              <div className="card p-6">
-                <h2 className="font-display font-bold text-lg text-gray-900 mb-4">📢 Suggested Marketing Channels</h2>
-                <div className="grid grid-cols-2 gap-3">
-                  {rec.marketingStrategy.map((strat, i) => (
-                    <div key={i} className="flex items-center gap-2 p-3 bg-gray-50 rounded-lg border border-gray-100">
-                      <span className="text-primary-500">↗</span>
-                      <span className="text-sm text-gray-700 font-medium">{strat}</span>
+            {/* NEW: Tech Stack */}
+            {rec.techStack && rec.techStack.length > 0 && (
+              <div className="card">
+                <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <span>💻</span> Recommended Tech Stack
+                </h3>
+                <div className="space-y-3">
+                  {rec.techStack.map((tech, idx) => (
+                    <div key={idx} className="bg-gray-900 text-white p-3 rounded-xl flex flex-col">
+                      <span className="font-bold text-sm">{tech.tool}</span>
+                      <span className="text-xs text-gray-400">{tech.purpose}</span>
                     </div>
                   ))}
                 </div>
               </div>
             )}
 
-            {/* Challenges & Pitfalls */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-lg text-gray-900 mb-4">⚠️ Challenges & Common Pitfalls</h2>
-              <ul className="space-y-3 mb-4">
-                {rec.challenges?.map((c, i) => (
-                  <li key={i} className="flex items-start gap-3 text-sm text-gray-700">
-                    <span className="w-5 h-5 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">!</span>
-                    {c}
-                  </li>
-                ))}
-              </ul>
-              {rec.commonPitfalls && rec.commonPitfalls.length > 0 && (
-                <div className="mt-4 pt-4 border-t border-gray-100">
-                  <h3 className="text-sm font-bold text-red-600 mb-3">Red Flags to Avoid:</h3>
-                  <ul className="space-y-2">
-                    {rec.commonPitfalls.map((pitfall, i) => (
-                      <li key={i} className="flex items-start gap-3 text-sm text-gray-600">
-                        <span className="text-red-500 mt-0.5">✕</span>
-                        {pitfall}
-                      </li>
-                    ))}
-                  </ul>
+            {/* NEW: Success Story */}
+            {rec.successStory && (
+              <div className="card bg-violet-50 border-violet-100">
+                <h3 className="font-bold text-violet-900 mb-3 flex items-center gap-2">
+                  <span>🏆</span> Success Story
+                </h3>
+                <div className="mb-2">
+                  <span className="font-bold text-gray-900 block">{rec.successStory.name}</span>
+                  <span className="text-xs font-semibold text-emerald-600 bg-emerald-100 px-2 py-0.5 rounded-full">{rec.successStory.revenue}</span>
                 </div>
-              )}
-            </div>
+                <p className="text-sm text-gray-700 italic leading-relaxed">
+                  "{rec.successStory.description}"
+                </p>
+              </div>
+            )}
 
-            {/* Success Tips */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-lg text-gray-900 mb-4">🚀 Success Tips</h2>
-              <ol className="space-y-3">
-                {rec.successTips?.map((tip, i) => (
-                  <li key={i} className="flex items-start gap-3 text-sm text-gray-700">
-                    <span className="w-7 h-7 rounded-full bg-gradient-to-br from-primary-500 to-violet-500 text-white text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">{i + 1}</span>
-                    {tip}
-                  </li>
-                ))}
-              </ol>
-            </div>
-          </div>
-
-          {/* Sidebar */}
-          <div className="space-y-5">
-            {/* Investment & Profit */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-base text-gray-900 mb-4">💰 Investment Details</h2>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center py-2 border-b border-gray-50">
-                  <span className="text-xs text-gray-400">Investment Range</span>
-                  <span className="font-semibold text-gray-900 text-sm">{rec.investment?.display}</span>
-                </div>
-                <div className="flex justify-between items-center py-2 border-b border-gray-50">
-                  <span className="text-xs text-gray-400">Profit Potential</span>
-                  <span className="font-semibold text-emerald-600 text-sm">{rec.profitPotential}</span>
-                </div>
-                <div className="flex justify-between items-center py-2">
-                  <span className="text-xs text-gray-400">Risk Level</span>
-                  <RiskBadge level={rec.riskLevel} />
+            {/* Legal Requirements */}
+            {rec.legalRequirements && rec.legalRequirements.length > 0 && (
+              <div className="card">
+                <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <span>⚖️</span> Legal & Compliance
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {rec.legalRequirements.map((req, idx) => (
+                    <span key={idx} className="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1.5 rounded-lg border border-gray-200 flex items-center gap-1">
+                      <svg className="w-3 h-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                      {req}
+                    </span>
+                  ))}
                 </div>
               </div>
-              {rec.roiTimeline && (
-                <div className="mt-4 p-4 bg-emerald-50 rounded-xl border border-emerald-100">
-                  <h3 className="text-xs font-bold text-emerald-800 uppercase tracking-wider mb-2">ROI Timeline</h3>
-                  <p className="text-xs text-emerald-700 leading-relaxed">{rec.roiTimeline}</p>
+            )}
+
+            {/* Skills */}
+            {rec.requiredSkills && rec.requiredSkills.length > 0 && (
+              <div className="card">
+                <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <span>🧠</span> Core Skills Needed
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {rec.requiredSkills.map((skill, idx) => (
+                    <span key={idx} className="bg-primary-50 text-primary-700 text-xs font-semibold px-3 py-1.5 rounded-lg border border-primary-100">
+                      {skill}
+                    </span>
+                  ))}
                 </div>
-              )}
-            </div>
-
-            {/* Required Skills */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-base text-gray-900 mb-4">🧠 Required Skills</h2>
-              <div className="flex flex-wrap gap-2">
-                {rec.requiredSkills?.map((s) => (
-                  <span key={s} className="bg-primary-50 text-primary-700 border border-primary-200 text-xs font-semibold px-3 py-1.5 rounded-full">{s}</span>
-                ))}
               </div>
-            </div>
+            )}
 
-            {/* Growth Potential */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-base text-gray-900 mb-3">📈 Growth Potential</h2>
-              <p className="text-sm text-gray-600 leading-relaxed">{rec.growthPotential}</p>
-            </div>
-
-            {/* Future Scope */}
-            <div className="card p-6">
-              <h2 className="font-display font-bold text-base text-gray-900 mb-3">🔮 Future Scope</h2>
-              <p className="text-sm text-gray-600 leading-relaxed">{rec.futureScope}</p>
-            </div>
-
-            {/* Save CTA */}
-            <button
-              onClick={toggleSave}
-              className={`w-full py-3.5 rounded-xl font-semibold text-sm transition-all ${saved ? 'bg-primary-600 text-white hover:bg-primary-700' : 'btn-primary'}`}
-            >
-              {saved ? '🔖 Saved to Your List' : '📌 Save This Business'}
-            </button>
-            <Link to="/recommendations" className="btn-secondary w-full text-center block py-3">← Back to All Businesses</Link>
           </div>
         </div>
       </main>
