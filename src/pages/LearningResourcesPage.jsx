@@ -110,6 +110,22 @@ const LearningResourcesPage = () => {
           <div className="flex justify-center py-20">
             <div className="w-16 h-16 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin"></div>
           </div>
+        ) : filteredResources.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-20 text-center">
+            <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center text-4xl mb-6">
+              🔍
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">No resources found</h3>
+            <p className="text-gray-500 max-w-md mx-auto mb-6">
+              We couldn't find any resources matching exactly "{categoryFilter}" and "{typeFilter}". Try adjusting your filters.
+            </p>
+            <button 
+              onClick={() => { setCategoryFilter('All'); setTypeFilter('All'); }}
+              className="px-6 py-2.5 bg-primary-50 text-primary-700 font-semibold rounded-lg hover:bg-primary-100 transition-colors"
+            >
+              Clear All Filters
+            </button>
+          </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredResources.map((resource, index) => (
