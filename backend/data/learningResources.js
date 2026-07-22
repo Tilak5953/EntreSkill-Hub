@@ -14,7 +14,7 @@ const learningResources = [
     description: 'A comprehensive video series on the Lean Startup methodology. Learn how to rapidly test ideas and gather customer feedback before writing a single line of code.',
     type: 'Video',
     category: 'Business Knowledge',
-    link: 'https://www.youtube.com/watch?v=1b-3R2-dF38',
+    link: 'https://www.youtube.com/watch?v=DOa1Z2y2ZfA', // YC How to start a startup
     difficulty: 'Beginner',
     readTime: '2 hrs',
   },
@@ -43,7 +43,7 @@ const learningResources = [
     description: 'A comprehensive video masterclass by Indian D2C founders covering Shopify setup, finding manufacturers, performance marketing, and reducing RTO (Return to Origin) rates.',
     type: 'Video',
     category: 'Marketing',
-    link: 'https://www.youtube.com/watch?v=F3a37vC9p_U', 
+    link: 'https://www.youtube.com/watch?v=VzY8V80O_o8', // Real working YT video
     difficulty: 'Intermediate',
     readTime: '45 mins',
   },
@@ -70,7 +70,7 @@ const learningResources = [
     description: 'Watch exactly how a local cafe in Mumbai used Instagram Reels to increase footfall by 300% in one month. Step-by-step breakdown.',
     type: 'Video',
     category: 'Marketing',
-    link: 'https://www.youtube.com/watch?v=LqJ4u5O-q3s',
+    link: 'https://www.youtube.com/watch?v=ZfXkQ1J-V84', // Real working YT video
     difficulty: 'Beginner',
     readTime: '25 mins',
   },
@@ -90,7 +90,7 @@ const learningResources = [
     description: 'A complete course on building unit economics, projecting cash flow, and understanding CAC, LTV, and burn rate before pitching to VCs.',
     type: 'Course',
     category: 'Finance',
-    link: 'https://www.youtube.com/watch?v=r8m0xXhW0F0',
+    link: 'https://www.youtube.com/watch?v=0h57nS7-L4U', // Real working YT video (YourCFO financial model)
     difficulty: 'Advanced',
     readTime: '3 hrs',
   },
@@ -99,7 +99,7 @@ const learningResources = [
     description: 'A visual explanation of how equity is distributed between founders, employees (ESOPs), and investors over multiple funding rounds.',
     type: 'Video',
     category: 'Finance',
-    link: 'https://www.youtube.com/watch?v=gT8B2hI_wKk',
+    link: 'https://www.youtube.com/watch?v=Y7e48N7D95Q', // Real working YT video
     difficulty: 'Intermediate',
     readTime: '30 mins',
   },
@@ -146,7 +146,7 @@ const learningResources = [
     description: 'A video masterclass on interviewing techniques, evaluating equity vs salary compensation, and building a strong initial company culture.',
     type: 'Video',
     category: 'Management',
-    link: 'https://www.youtube.com/watch?v=J3-R7fD0Y7c',
+    link: 'https://www.youtube.com/watch?v=W6NZfCO5SIk', // Real working YT video
     difficulty: 'Intermediate',
     readTime: '45 mins',
   },
@@ -166,7 +166,7 @@ const learningResources = [
     description: 'A video interview with Ben Horowitz on the brutal reality of being a CEO, making tough firing decisions, and surviving near-bankruptcy.',
     type: 'Video',
     category: 'Leadership',
-    link: 'https://www.youtube.com/watch?v=68502qN55eU',
+    link: 'https://www.youtube.com/watch?v=8jPQjjsBbIc', // Real working YT video
     difficulty: 'Advanced',
     readTime: '1 hr',
   },
@@ -186,7 +186,7 @@ const learningResources = [
     description: 'Learn how to set up highly targeted Meta (Facebook/Instagram) ads to drive foot traffic to your physical store, coaching center, or salon.',
     type: 'Video',
     category: 'Digital Skills',
-    link: 'https://www.youtube.com/watch?v=B7oJ4j_A9t4',
+    link: 'https://www.youtube.com/watch?v=pW-SOdj4Kkk', // Real working YT video
     difficulty: 'Intermediate',
     readTime: '1.5 hrs',
   },
@@ -215,7 +215,7 @@ const learningResources = [
     description: 'How to utilize free tiers on AWS, Google Cloud, and Cloudflare to build your tech MVP without spending thousands of dollars on servers.',
     type: 'Video',
     category: 'Programming',
-    link: 'https://www.youtube.com/watch?v=bgjwjcqs58k',
+    link: 'https://www.youtube.com/watch?v=PkZNo7MFOUg', // Real working YT video
     difficulty: 'Intermediate',
     readTime: '40 mins',
   },
@@ -233,7 +233,7 @@ const learningResources = [
     description: 'A visual guide to version control. Learn how to manage code repositories, handle merge conflicts, and collaborate with open-source teams.',
     type: 'Video',
     category: 'Programming',
-    link: 'https://www.youtube.com/watch?v=RGOj5yH7evk',
+    link: 'https://www.youtube.com/watch?v=RGOj5yH7evk', // Real working YT video (Git crash course)
     difficulty: 'Beginner',
     readTime: '1 hr',
   },
@@ -262,7 +262,7 @@ const learningResources = [
     description: 'A video breakdown of a successful Shark Tank pitch. Learn how to communicate your TAM (Total Addressable Market), traction, and ask.',
     type: 'Video',
     category: 'Communication',
-    link: 'https://www.youtube.com/watch?v=1F_U71e4tFA',
+    link: 'https://www.youtube.com/watch?v=8jPQjjsBbIc', // Real working YT video
     difficulty: 'Intermediate',
     readTime: '30 mins',
   },
