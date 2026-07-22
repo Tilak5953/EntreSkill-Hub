@@ -18,14 +18,9 @@ const getMentors = async (req, res) => {
 // @access  Public
 const seedMentors = async (req, res) => {
   try {
-    let insertedCount = 0;
-    for (const mentor of mentorsData) {
-      const exists = await Mentor.findOne({ name: mentor.name });
-      if (!exists) {
-        await Mentor.create(mentor);
-        insertedCount++;
-      }
-    }
+    await Mentor.deleteMany({});
+    const inserted = await Mentor.insertMany(mentorsData);
+    let insertedCount = inserted.length;
     res.json({ success: true, message: 'Mentors seeded', insertedCount });
   } catch (error) {
     res.status(500).json({ success: false, message: 'Server error while seeding mentors' });

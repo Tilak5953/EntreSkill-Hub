@@ -18,14 +18,9 @@ const getLearningResources = async (req, res) => {
 // @access  Public
 const seedLearningResources = async (req, res) => {
   try {
-    let insertedCount = 0;
-    for (const resource of learningResourcesData) {
-      const exists = await LearningResource.findOne({ title: resource.title });
-      if (!exists) {
-        await LearningResource.create(resource);
-        insertedCount++;
-      }
-    }
+    await LearningResource.deleteMany({});
+    const inserted = await LearningResource.insertMany(learningResourcesData);
+    let insertedCount = inserted.length;
     res.json({ success: true, message: 'Learning resources seeded', insertedCount });
   } catch (error) {
     res.status(500).json({ success: false, message: 'Server error while seeding learning resources' });
