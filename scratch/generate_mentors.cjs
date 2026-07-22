@@ -1,29 +1,37 @@
 const fs = require('fs');
 const path = require('path');
 
-const firstNames = ['Vikram', 'Sneha', 'Rahul', 'Anjali', 'Karan', 'Priya', 'Amit', 'Neha', 'Rohit', 'Sanjana', 'Ravi', 'Ayesha', 'Siddharth', 'Pooja', 'Aditya', 'Ritu', 'Arjun', 'Meera', 'Gaurav', 'Nidhi', 'Kavita', 'Sanjay', 'Manoj', 'Rakesh', 'Divya', 'Aakash', 'Varun', 'Kriti', 'Simran', 'Ishaan'];
+const maleFirstNames = ['Vikram', 'Rahul', 'Karan', 'Amit', 'Rohit', 'Ravi', 'Siddharth', 'Aditya', 'Arjun', 'Gaurav', 'Sanjay', 'Manoj', 'Rakesh', 'Aakash', 'Varun', 'Ishaan', 'Dev', 'Rishabh', 'Saurabh', 'Kunal'];
+const femaleFirstNames = ['Sneha', 'Anjali', 'Priya', 'Neha', 'Sanjana', 'Ayesha', 'Pooja', 'Ritu', 'Meera', 'Nidhi', 'Kavita', 'Divya', 'Kriti', 'Simran', 'Ishita', 'Riya', 'Tanya', 'Aarohi', 'Shruti', 'Ananya'];
+
 const lastNames = ['Ahuja', 'Rao', 'Desai', 'Sharma', 'Patel', 'Iyer', 'Agarwal', 'Gupta', 'Verma', 'Kapoor', 'Singh', 'Kumar', 'Joshi', 'Chopra', 'Reddy', 'Menon', 'Nair', 'Bhat', 'Das', 'Sen', 'Malhotra', 'Bansal', 'Jain', 'Mehta', 'Seth', 'Chatterjee', 'Pandey', 'Kaur', 'Srivastava', 'Choudhury'];
 const titles = ['Founder', 'CEO', 'CTO', 'VP of Growth', 'Director of Operations', 'Managing Partner', 'Head of Engineering', 'Supply Chain Lead', 'EdTech Product Lead', 'Angel Investor', 'Chief Compliance Officer', 'Marketing Head', 'Lead Designer', 'Data Science Head', 'Chief Revenue Officer', 'Co-Founder'];
 const companies = ['Flipkart', 'Zomato', 'Razorpay', 'Delhivery', 'UpGrad', 'FinEdge Solutions', 'Creative Media Agency', 'OrganicEarth', 'LegalWiz India', 'Indian Angel Network', 'Swiggy', 'Cred', 'Ola', 'Paytm', 'Freshworks', 'Zerodha', 'Lenskart', 'Nykaa', 'Dream11', 'Meesho', 'Unacademy', 'ShareChat', 'Postman', 'BrowserStack', 'Oyo', 'CureFit', 'UrbanCompany', 'PolicyBazaar', 'Pine Labs', 'Udaan'];
 const expertisePool = ['E-Commerce', 'Scaling', 'Growth Marketing', 'FinTech', 'Fundraising', 'B2B SaaS', 'Food Tech', 'Cloud Kitchens', 'Operations', 'Digital Marketing', 'Brand Building', 'Content Strategy', 'Tech Infrastructure', 'Product Management', 'Cybersecurity', 'Retail', 'D2C', 'Sustainable Business', 'Legal', 'Taxation', 'Company Registration', 'Angel Investing', 'Pitch Decks', 'Mentorship', 'Logistics', 'Supply Chain', 'B2B Trade', 'EdTech', 'Customer Retention', 'AI/ML', 'Blockchain', 'Web3', 'UI/UX Design', 'Sales', 'B2B Sales', 'SEO', 'Performance Marketing', 'Data Analytics', 'Business Strategy', 'Hardware', 'IoT', 'HealthTech', 'Agritech', 'CleanTech', 'D2C Brand', 'Bootstrapping', 'Consumer Apps', 'Marketplaces'];
 
-const images = [
+const maleImages = [
   'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200',
-  'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200',
-  'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200',
-  'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=200',
-  'https://images.unsplash.com/photo-1598550874175-4d0ef436c909?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&q=80&w=200',
-  'https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1600878459196-1eb8f1618392?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200'
+];
+
+const femaleImages = [
+  'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1598550874175-4d0ef436c909?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200',
-  'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200',
   'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?auto=format&fit=crop&q=80&w=200',
-  'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=200'
+  'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=200',
+  'https://images.unsplash.com/photo-1601288496920-b6154fe3626a?auto=format&fit=crop&q=80&w=200'
 ];
 
 const prices = [999, 1499, 1999, 2499, 2999, 3499, 4999];
@@ -46,13 +54,17 @@ const bios = [
 const mentors = [];
 
 for (let i = 0; i < 60; i++) {
-  const firstName = getRandom(firstNames);
+  // Alternate between male and female
+  const isMale = i % 2 === 0;
+  const firstName = isMale ? getRandom(maleFirstNames) : getRandom(femaleFirstNames);
+  const imageUrl = isMale ? getRandom(maleImages) : getRandom(femaleImages);
+  
   const lastName = getRandom(lastNames);
   mentors.push({
     name: `${firstName} ${lastName}`,
     title: getRandom(titles),
     company: getRandom(companies),
-    imageUrl: getRandom(images),
+    imageUrl: imageUrl,
     expertise: getRandomItems(expertisePool, 3),
     experienceYears: Math.floor(Math.random() * 15) + 5,
     rating: (Math.random() * (5.0 - 4.5) + 4.5).toFixed(1),
@@ -68,4 +80,4 @@ module.exports = mentors;
 `;
 
 fs.writeFileSync(path.join(__dirname, '../backend/data/mentors.js'), fileContent);
-console.log('Successfully generated 60 mentors and saved to backend/data/mentors.js');
+console.log('Successfully generated 60 gender-synced mentors and saved to backend/data/mentors.js');
