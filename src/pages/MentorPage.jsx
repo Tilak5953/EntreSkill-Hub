@@ -6,6 +6,11 @@ const MentorPage = () => {
   const [mentors, setMentors] = useState([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('All');
+  
+  // Monetization State
+  const [selectedMentor, setSelectedMentor] = useState(null);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [paymentSuccess, setPaymentSuccess] = useState(false);
 
   useEffect(() => {
     api.get('/mentors')
@@ -24,8 +29,108 @@ const MentorPage = () => {
   const categories = ['All', ...new Set(mentors.flatMap((m) => m.expertise))].sort();
   const filteredMentors = filter === 'All' ? mentors : mentors.filter((m) => m.expertise.includes(filter));
 
+  const handleBookSession = (mentor) => {
+    setSelectedMentor(mentor);
+    setPaymentSuccess(false);
+  };
+
+  const handleSimulatePayment = () => {
+    setIsProcessing(true);
+    // Simulate network delay for payment processing
+    setTimeout(() => {
+      setIsProcessing(false);
+      setPaymentSuccess(true);
+      
+      // Auto-close after success
+      setTimeout(() => {
+        setSelectedMentor(null);
+        setPaymentSuccess(false);
+      }, 3000);
+    }, 2000);
+  };
+
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 relative">
+      {/* Checkout Modal Overlay */}
+      {selectedMentor && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div 
+            className="absolute inset-0 bg-gray-900/60 backdrop-blur-sm transition-opacity" 
+            onClick={() => !isProcessing && setSelectedMentor(null)}
+          ></div>
+          
+          <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-md overflow-hidden transform transition-all">
+            {/* Modal Header */}
+            <div className="bg-gradient-to-r from-gray-900 to-indigo-900 p-6 text-white text-center">
+              <h2 className="text-2xl font-bold font-display tracking-tight mb-1">Complete Booking</h2>
+              <p className="text-gray-300 text-sm">Secure checkout simulation</p>
+            </div>
+            
+            <div className="p-6">
+              {paymentSuccess ? (
+                <div className="py-10 text-center animate-fade-in-up">
+                  <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Payment Successful!</h3>
+                  <p className="text-gray-600">Your session with {selectedMentor.name} is booked.</p>
+                </div>
+              ) : (
+                <>
+                  <div className="flex items-center gap-4 mb-6 pb-6 border-b border-gray-100">
+                    <img src={selectedMentor.imageUrl} alt={selectedMentor.name} className="w-16 h-16 rounded-xl object-cover shadow-sm" />
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-lg">{selectedMentor.name}</h3>
+                      <p className="text-sm text-gray-500">{selectedMentor.title} @ {selectedMentor.company}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div className="flex justify-between text-sm">
+                      <span className="text-gray-500">1-on-1 Strategy Session (60 mins)</span>
+                      <span className="font-semibold">₹{selectedMentor.priceSession || 999}</span>
+                    </div>
+                    <div className="flex justify-between text-sm">
+                      <span className="text-gray-500">Platform Fee</span>
+                      <span className="font-semibold">₹{(selectedMentor.priceSession || 999) * 0.05}</span>
+                    </div>
+                    <div className="flex justify-between text-lg font-bold pt-4 border-t border-gray-100">
+                      <span>Total Amount</span>
+                      <span className="text-primary-600">₹{(selectedMentor.priceSession || 999) * 1.05}</span>
+                    </div>
+                  </div>
+
+                  <button 
+                    onClick={handleSimulatePayment}
+                    disabled={isProcessing}
+                    className={`w-full py-4 rounded-xl font-bold text-lg text-white transition-all duration-300 flex justify-center items-center gap-2 ${
+                      isProcessing 
+                        ? 'bg-primary-400 cursor-not-allowed' 
+                        : 'bg-gradient-to-r from-primary-600 to-violet-600 hover:shadow-lg hover:shadow-primary-500/40 hover:-translate-y-1'
+                    }`}
+                  >
+                    {isProcessing ? (
+                      <>
+                        <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                        Processing...
+                      </>
+                    ) : (
+                      `Pay ₹${(selectedMentor.priceSession || 999) * 1.05}`
+                    )}
+                  </button>
+                  <p className="text-center text-xs text-gray-400 mt-4 flex items-center justify-center gap-1">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    Simulated Secure Payment
+                  </p>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Premium Hero Section */}
       <div className="relative bg-gradient-to-br from-gray-900 to-indigo-950 pt-24 pb-32 overflow-hidden">
         <div className="absolute inset-0 opacity-20 dot-grid-white" />
@@ -78,6 +183,12 @@ const MentorPage = () => {
                 {/* Mentor Card Header */}
                 <div className="relative h-32 bg-gradient-to-br from-primary-100 to-violet-100 overflow-hidden">
                   <div className="absolute inset-0 opacity-50 dot-grid" />
+                  
+                  {/* Price Tag Badge */}
+                  <div className="absolute top-4 left-4 bg-gray-900/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-white shadow-sm flex items-center gap-1 border border-gray-700">
+                    <span className="text-green-400">₹</span> {mentor.priceSession || 999} <span className="text-xs font-normal text-gray-300">/ session</span>
+                  </div>
+
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-gray-800 shadow-sm flex items-center gap-1">
                     <span className="text-yellow-500 text-sm">★</span> {mentor.rating}
                   </div>
@@ -120,9 +231,12 @@ const MentorPage = () => {
                     ))}
                   </div>
 
-                  <button className="w-full relative overflow-hidden bg-gray-900 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-primary-600 group-hover:to-violet-600 hover:shadow-lg hover:shadow-primary-500/30">
+                  <button 
+                    onClick={() => handleBookSession(mentor)}
+                    className="w-full relative overflow-hidden bg-gray-900 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-primary-600 group-hover:to-violet-600 hover:shadow-lg hover:shadow-primary-500/30"
+                  >
                     <span className="relative z-10 flex items-center justify-center gap-2">
-                      Request Mentorship Session
+                      Book Session • ₹{mentor.priceSession || 999}
                       <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                       </svg>

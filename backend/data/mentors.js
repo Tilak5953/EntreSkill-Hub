@@ -11,6 +11,7 @@ const mentors = [
     experienceYears: 12,
     rating: 4.9,
     reviews: 142,
+    priceSession: 2499,
     bio: 'Former VP of Growth at Flipkart, scaling categories from $1M to $50M+ ARR. I help early-stage e-commerce and D2C brands navigate Indian supply chain logistics, customer acquisition costs (CAC), and marketplace scaling strategies. If you want to crack Amazon/Flipkart algorithms or build your own Shopify store, I can help.'
   },
   {
@@ -22,6 +23,7 @@ const mentors = [
     experienceYears: 9,
     rating: 4.8,
     reviews: 89,
+    priceSession: 1999,
     bio: 'YC Alumni and 2x Founder. Raised over $5M from tier-1 Indian VC firms (Sequoia India, Nexus). I specialize in helping founders build compelling pitch decks, navigate early-stage valuations, and build B2B SaaS sales funnels for the Indian enterprise market.'
   },
   {
@@ -33,6 +35,7 @@ const mentors = [
     experienceYears: 14,
     rating: 5.0,
     reviews: 215,
+    priceSession: 1499,
     bio: 'Core operations team at Zomato. I know exactly what makes a cloud kitchen succeed or fail in 6 months. I mentor founders on FSSAI compliance, Swiggy/Zomato algorithm optimization, food cost management, and scaling dark kitchens across Tier 1 and Tier 2 cities.'
   },
   {
@@ -44,6 +47,7 @@ const mentors = [
     experienceYears: 10,
     rating: 4.7,
     reviews: 156,
+    priceSession: 999,
     bio: 'Run a 50-person creative agency in Mumbai. I guide freelancers, aspiring agency owners, and service-based businesses on how to transition from Upwork/Fiverr to closing high-ticket retainer clients. Deep expertise in Meta Ads, local SEO, and influencer marketing.'
   },
   {
@@ -55,6 +59,7 @@ const mentors = [
     experienceYears: 15,
     rating: 4.9,
     reviews: 110,
+    priceSession: 2999,
     bio: 'Built highly scalable payment systems processing millions of transactions. I mentor tech founders on architectural decisions (AWS vs GCP), hiring your first engineering team in India, data privacy compliance, and building resilient MVP architectures.'
   },
   {
@@ -66,6 +71,7 @@ const mentors = [
     experienceYears: 7,
     rating: 4.8,
     reviews: 78,
+    priceSession: 999,
     bio: 'Bootstrapped my organic skincare brand to ₹10 Crore revenue in 3 years. I help founders with contract manufacturing, packaging sourcing, Shopify conversion rate optimization, and building a loyal community on Instagram in a crowded market.'
   },
   {
@@ -77,6 +83,7 @@ const mentors = [
     experienceYears: 18,
     rating: 5.0,
     reviews: 320,
+    priceSession: 1499,
     bio: 'Chartered Accountant and Corporate Lawyer. The biggest reason startups fail in India is compliance notices. I provide clear, no-nonsense guidance on Private Limited vs LLP, GST filings, MSME/Udyam registration, and co-founder equity structuring.'
   },
   {
@@ -88,6 +95,7 @@ const mentors = [
     experienceYears: 11,
     rating: 4.7,
     reviews: 95,
+    priceSession: 3499,
     bio: 'Invested in 20+ Indian startups across EdTech, HealthTech, and Agritech. I review pitch decks and tell you exactly why investors are passing on your startup. Best suited for founders preparing for their Seed or Pre-Series A rounds.'
   },
   {
@@ -99,6 +107,7 @@ const mentors = [
     experienceYears: 13,
     rating: 4.8,
     reviews: 104,
+    priceSession: 1299,
     bio: 'If you are building a physical product business, your margins live or die in logistics. I help founders optimize reverse logistics (RTOs), negotiate with courier partners, and manage inventory forecasting to prevent dead stock.'
   },
   {
@@ -110,6 +119,7 @@ const mentors = [
     experienceYears: 8,
     rating: 4.9,
     reviews: 132,
+    priceSession: 1199,
     bio: 'Designed learning experiences for over 1M+ students. I mentor founders looking to build cohort-based courses, coaching centers, or EdTech apps. I focus heavily on learner retention metrics, gamification, and lowering customer acquisition costs.'
   }
 ];

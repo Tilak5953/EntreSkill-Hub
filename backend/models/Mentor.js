@@ -12,7 +12,8 @@ const mentorSchema = mongoose.Schema(
     reviews: { type: Number, default: 0 },
     imageUrl: { type: String },
     linkedInUrl: { type: String },
-    isActive: { type: Boolean, default: true }
+    isActive: { type: Boolean, default: true },
+    priceSession: { type: Number, required: true }
   },
   { timestamps: true }
 );
