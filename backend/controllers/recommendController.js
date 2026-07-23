@@ -52,7 +52,7 @@ const getRecommendationById = async (req, res) => {
   }
 };
 
-// @desc    Seed all 25 businesses into MongoDB (admin utility)
+// @desc    Seed all businesses into MongoDB (admin utility)
 // @route   GET /api/recommendations/seed
 // @access  Public (admin utility — no auth required)
 const seedRecommendations = async (req, res) => {
@@ -60,12 +60,11 @@ const seedRecommendations = async (req, res) => {
     let insertedCount = 0;
     let skippedCount = 0;
 
+    // Clear old data first to avoid mixing legacy basic data with new advanced data
+    await Recommendation.deleteMany({});
+
     for (const business of businessesData) {
-      const result = await Recommendation.findOneAndUpdate(
-        { name: business.name },
-        business,
-        { upsert: true, new: true, setDefaultsOnInsert: true }
-      );
+      const result = await Recommendation.create(business);
       if (result) insertedCount++;
     }
 
