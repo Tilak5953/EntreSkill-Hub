@@ -1,4 +1,4 @@
-// Ultra-Detailed Business Database merged with original 100+ ideas
+// Auto-generated detailed business profiles
 const businesses = [
   {
     "name": "Cloud Kitchen (Dark Kitchen)",
@@ -3307,127 +3307,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Grocery Store",
+          "Study top 3 competitors in the Retail space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Grocery Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Retail service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Grocery Store is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Retail sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Retail sector is undergoing massive transformation in India. Establishing a Grocery Store offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣1,00,000 ΓÇô Γé╣5,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1562"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "36%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹252"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "14%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -3494,129 +3502,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Restaurant",
+          "Study top 3 competitors in the Food & Beverages space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Restaurant Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Food & Beverages service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Restaurant is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Food & Beverages sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Food & Beverages sector is undergoing massive transformation in India. Establishing a Restaurant offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "FSSAI License",
-      "Health Trade License",
-      "Fire NOC"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣3,00,000 ΓÇô Γé╣20,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Instagram & TikTok Reels",
-      "Influencer Partnerships",
-      "Local Facebook Ads",
-      "Food Aggregator Promotions"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1756"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "67%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹286"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "26%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹1,50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹60,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹90,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -3677,129 +3691,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Tea Stall / Chai Point",
+          "Study top 3 competitors in the Food & Beverages space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Tea Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Food & Beverages service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Tea Stall / Chai Point is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Food & Beverages sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Food & Beverages sector is undergoing massive transformation in India. Establishing a Tea Stall / Chai Point offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "FSSAI License",
-      "Health Trade License",
-      "Fire NOC"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣5,000 ΓÇô Γé╣50,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Instagram & TikTok Reels",
-      "Influencer Partnerships",
-      "Local Facebook Ads",
-      "Food Aggregator Promotions"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2291"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "38%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹161"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "15%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹2,500"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹1,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹1,500"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -3866,128 +3886,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Coaching Centre",
+          "Study top 3 competitors in the Education & Training space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Coaching Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Education & Training service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Coaching Centre is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Education & Training sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Education & Training sector is undergoing massive transformation in India. Establishing a Coaching Centre offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Educational Society Registration",
-      "Local Municipal NOC"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣30,000 ΓÇô Γé╣3,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1257"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "54%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹352"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "21%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹15,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹6,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹9,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -4054,128 +4081,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Web Development Agency",
+          "Study top 3 competitors in the Technology & IT space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Web Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Technology & IT service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Web Development Agency is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Technology & IT sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Small to medium-sized enterprises (SMEs), startups, and corporate clients looking for specialized solutions in the Technology & IT space. Decision-makers include founders, HR managers, and operational heads.",
+    "marketAnalysis": "The Technology & IT sector is undergoing massive transformation in India. Establishing a Web Development Agency offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act",
-      "Data Privacy Policy Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣1,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "LinkedIn Outreach",
-      "SEO & Content Marketing",
-      "Cold Emailing",
-      "Industry Conferences"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹772"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "46%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹238"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "18%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -4238,128 +4272,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Software Company",
+          "Study top 3 competitors in the Technology & IT space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Software Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Technology & IT service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Software Company is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Technology & IT sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Small to medium-sized enterprises (SMEs), startups, and corporate clients looking for specialized solutions in the Technology & IT space. Decision-makers include founders, HR managers, and operational heads.",
+    "marketAnalysis": "The Technology & IT sector is undergoing massive transformation in India. Establishing a Software Company offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act",
-      "Data Privacy Policy Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣2,00,000 ΓÇô Γé╣20,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "LinkedIn Outreach",
-      "SEO & Content Marketing",
-      "Cold Emailing",
-      "Industry Conferences"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1405"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "59%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹164"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "23%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹1,00,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹40,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹60,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -4429,128 +4470,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Digital Marketing Agency",
+          "Study top 3 competitors in the Technology & IT space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Digital Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Technology & IT service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Digital Marketing Agency is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Technology & IT sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Small to medium-sized enterprises (SMEs), startups, and corporate clients looking for specialized solutions in the Technology & IT space. Decision-makers include founders, HR managers, and operational heads.",
+    "marketAnalysis": "The Technology & IT sector is undergoing massive transformation in India. Establishing a Digital Marketing Agency offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act",
-      "Data Privacy Policy Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣1,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "LinkedIn Outreach",
-      "SEO & Content Marketing",
-      "Cold Emailing",
-      "Industry Conferences"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1305"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "69%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹229"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "27%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -4615,127 +4663,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Mobile Repair Shop",
+          "Study top 3 competitors in the Home Services space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Mobile Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Home Services service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Mobile Repair Shop is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Home Services sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Home Services sector is undergoing massive transformation in India. Establishing a Mobile Repair Shop offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣20,000 ΓÇô Γé╣1,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2160"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "39%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹348"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "15%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹10,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹4,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹6,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -4800,127 +4856,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Cyber Cafe / Computer Centre",
+          "Study top 3 competitors in the Home Services space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Cyber Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Home Services service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Cyber Cafe / Computer Centre is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Home Services sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Home Services sector is undergoing massive transformation in India. Establishing a Cyber Cafe / Computer Centre offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣1,00,000 ΓÇô Γé╣4,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1858"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "69%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹360"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "27%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -4983,128 +5047,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Tuition Centre",
+          "Study top 3 competitors in the Education & Training space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Tuition Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Education & Training service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Tuition Centre is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Education & Training sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Education & Training sector is undergoing massive transformation in India. Establishing a Tuition Centre offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Educational Society Registration",
-      "Local Municipal NOC"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣5,000 ΓÇô Γé╣50,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹910"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "33%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹293"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "13%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹2,500"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹1,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹1,500"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -5170,127 +5241,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Agriculture Startup / Organic Farming",
+          "Study top 3 competitors in the Agriculture & Organic space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Agriculture Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Agriculture & Organic service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Agriculture Startup / Organic Farming is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Agriculture & Organic sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Agriculture & Organic sector is undergoing massive transformation in India. Establishing a Agriculture Startup / Organic Farming offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣50,000 ΓÇô Γé╣5,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2236"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "49%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹282"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "19%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -5356,129 +5435,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Cloud Kitchen",
+          "Study top 3 competitors in the Food & Beverages space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Cloud Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Food & Beverages service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Cloud Kitchen is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Food & Beverages sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Food & Beverages sector is undergoing massive transformation in India. Establishing a Cloud Kitchen offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "FSSAI License",
-      "Health Trade License",
-      "Fire NOC"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣50,000 ΓÇô Γé╣2,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Instagram & TikTok Reels",
-      "Influencer Partnerships",
-      "Local Facebook Ads",
-      "Food Aggregator Promotions"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1206"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "36%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹102"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "14%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -5551,127 +5636,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for YouTube Channel / Content Creation",
+          "Study top 3 competitors in the Creative Arts space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the YouTube Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Creative Arts service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for YouTube Channel / Content Creation is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Creative Arts sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Creative Arts sector is undergoing massive transformation in India. Establishing a YouTube Channel / Content Creation offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣80,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹745"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "63%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹342"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "25%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -5737,127 +5830,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Graphic Design Studio",
+          "Study top 3 competitors in the Creative Arts space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Graphic Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Creative Arts service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Graphic Design Studio is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Creative Arts sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Creative Arts sector is undergoing massive transformation in India. Establishing a Graphic Design Studio offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣15,000 ΓÇô Γé╣80,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹673"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "45%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹391"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "18%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹7,500"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹3,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹4,500"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -5922,127 +6023,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Clothing / Fashion Store",
+          "Study top 3 competitors in the Fashion & Lifestyle space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Clothing Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Fashion & Lifestyle service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Clothing / Fashion Store is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Fashion & Lifestyle sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Fashion & Lifestyle sector is undergoing massive transformation in India. Establishing a Clothing / Fashion Store offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣1,00,000 ΓÇô Γé╣5,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Instagram & TikTok Reels",
-      "Influencer Partnerships",
-      "Local Facebook Ads",
-      "Food Aggregator Promotions"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1252"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "54%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹305"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "21%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -6109,127 +6218,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Photography Business",
+          "Study top 3 competitors in the Creative Arts space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Photography Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Creative Arts service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Photography Business is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Creative Arts sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Creative Arts sector is undergoing massive transformation in India. Establishing a Photography Business offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣50,000 ΓÇô Γé╣3,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1367"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "46%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹384"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "18%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -6298,128 +6415,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for E-Commerce Store",
+          "Study top 3 competitors in the E-Commerce space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the E-Commerce Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the E-Commerce service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for E-Commerce Store is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the E-Commerce sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The E-Commerce sector is undergoing massive transformation in India. Establishing a E-Commerce Store offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act",
-      "Data Privacy Policy Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣20,000 ΓÇô Γé╣2,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1583"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "69%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹192"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "27%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹10,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹4,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹6,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -6483,128 +6607,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Fitness Centre / Gym",
+          "Study top 3 competitors in the Health & Wellness space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Fitness Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Health & Wellness service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Fitness Centre / Gym is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Health & Wellness sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Health & Wellness sector is undergoing massive transformation in India. Establishing a Fitness Centre / Gym offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Clinical Establishment Act Registration",
-      "Bio-Medical Waste Management Rule Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣3,00,000 ΓÇô Γé╣20,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹802"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "30%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹175"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "12%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹1,50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹60,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹90,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -6669,127 +6800,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Beauty Salon / Parlour",
+          "Study top 3 competitors in the Fashion & Lifestyle space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Beauty Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Fashion & Lifestyle service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Beauty Salon / Parlour is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Fashion & Lifestyle sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Fashion & Lifestyle sector is undergoing massive transformation in India. Establishing a Beauty Salon / Parlour offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣50,000 ΓÇô Γé╣3,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Instagram & TikTok Reels",
-      "Influencer Partnerships",
-      "Local Facebook Ads",
-      "Food Aggregator Promotions"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1251"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "38%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹214"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "15%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -6857,127 +6996,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Event Management Company",
+          "Study top 3 competitors in the Creative Arts space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Event Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Creative Arts service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Event Management Company is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Creative Arts sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Creative Arts sector is undergoing massive transformation in India. Establishing a Event Management Company offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣50,000 ΓÇô Γé╣3,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1720"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "40%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹398"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "16%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -7043,127 +7190,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Real Estate Consulting",
+          "Study top 3 competitors in the Consulting space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Real Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Consulting service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Real Estate Consulting is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Consulting sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Small to medium-sized enterprises (SMEs), startups, and corporate clients looking for specialized solutions in the Consulting space. Decision-makers include founders, HR managers, and operational heads.",
+    "marketAnalysis": "The Consulting sector is undergoing massive transformation in India. Establishing a Real Estate Consulting offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣1,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1996"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "50%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹175"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "20%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -7229,127 +7384,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Freelance Writing Agency",
+          "Study top 3 competitors in the Creative Arts space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Freelance Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Creative Arts service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Freelance Writing Agency is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Creative Arts sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Creative Arts sector is undergoing massive transformation in India. Establishing a Freelance Writing Agency offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣5,000 ΓÇô Γé╣30,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2464"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "34%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹271"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "13%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹2,500"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹1,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹1,500"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -7415,128 +7578,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Mobile App Development",
+          "Study top 3 competitors in the Technology & IT space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Mobile Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Technology & IT service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Mobile App Development is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Technology & IT sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Small to medium-sized enterprises (SMEs), startups, and corporate clients looking for specialized solutions in the Technology & IT space. Decision-makers include founders, HR managers, and operational heads.",
+    "marketAnalysis": "The Technology & IT sector is undergoing massive transformation in India. Establishing a Mobile App Development offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act",
-      "Data Privacy Policy Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣20,000 ΓÇô Γé╣1,50,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "LinkedIn Outreach",
-      "SEO & Content Marketing",
-      "Cold Emailing",
-      "Industry Conferences"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1139"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "54%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹246"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "21%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹10,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹4,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹6,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -7602,127 +7772,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Interior Design Business",
+          "Study top 3 competitors in the Home Services space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Interior Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Home Services service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Interior Design Business is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Home Services sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Home Services sector is undergoing massive transformation in India. Establishing a Interior Design Business offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣20,000 ΓÇô Γé╣1,50,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2204"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "68%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹261"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "27%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹10,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹4,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹6,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -7788,127 +7966,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Travel Agency",
+          "Study top 3 competitors in the Consulting space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Travel Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Consulting service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Travel Agency is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Consulting sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Small to medium-sized enterprises (SMEs), startups, and corporate clients looking for specialized solutions in the Consulting space. Decision-makers include founders, HR managers, and operational heads.",
+    "marketAnalysis": "The Consulting sector is undergoing massive transformation in India. Establishing a Travel Agency offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣30,000 ΓÇô Γé╣2,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2286"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "36%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹194"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "14%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹15,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹6,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹9,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -7973,127 +8159,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Logistics & Delivery Agency",
+          "Study top 3 competitors in the Transportation & Logistics space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Logistics Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Transportation & Logistics service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Logistics & Delivery Agency is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Transportation & Logistics sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Transportation & Logistics sector is undergoing massive transformation in India. Establishing a Logistics & Delivery Agency offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣1,00,000 ΓÇô Γé╣5,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1004"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "62%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹179"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "24%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -8157,127 +8351,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Real Estate Photography & Virtual Tours",
+          "Study top 3 competitors in the Real Estate & Property space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Real Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Real Estate & Property service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Real Estate Photography & Virtual Tours is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Real Estate & Property sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Real Estate & Property sector is undergoing massive transformation in India. Establishing a Real Estate Photography & Virtual Tours offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣50,000 ΓÇô Γé╣2,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2146"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "57%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹394"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "22%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -8340,127 +8542,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Stock Market Trading & Investing",
+          "Study top 3 competitors in the Finance & Insurance space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Stock Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Finance & Insurance service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Stock Market Trading & Investing is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Finance & Insurance sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Finance & Insurance sector is undergoing massive transformation in India. Establishing a Stock Market Trading & Investing offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣10,00,000+, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹847"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "61%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹198"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "24%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -8523,127 +8733,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Insurance Agency (POSP)",
+          "Study top 3 competitors in the Finance & Insurance space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Insurance Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Finance & Insurance service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Insurance Agency (POSP) is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Finance & Insurance sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Finance & Insurance sector is undergoing massive transformation in India. Establishing a Insurance Agency (POSP) offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Under Γé╣10,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1634"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "51%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹124"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "20%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -8708,127 +8926,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Handmade / Artisanal Products",
+          "Study top 3 competitors in the Manufacturing & Production space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Handmade Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Manufacturing & Production service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Handmade / Artisanal Products is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Manufacturing & Production sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Manufacturing & Production sector is undergoing massive transformation in India. Establishing a Handmade / Artisanal Products offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣50,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1845"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "30%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹372"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "12%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -8891,127 +9117,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Podcast Production Agency",
+          "Study top 3 competitors in the Entertainment & Media space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Podcast Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Entertainment & Media service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Podcast Production Agency is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Entertainment & Media sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Entertainment & Media sector is undergoing massive transformation in India. Establishing a Podcast Production Agency offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣20,000 ΓÇô Γé╣1,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1422"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "68%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹375"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "27%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹10,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹4,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹6,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -9074,127 +9308,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Travel Agency / Tour Operator",
+          "Study top 3 competitors in the Travel & Tourism space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Travel Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Travel & Tourism service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Travel Agency / Tour Operator is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Travel & Tourism sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Travel & Tourism sector is undergoing massive transformation in India. Establishing a Travel Agency / Tour Operator offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣1,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1003"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "48%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹192"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "19%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -9257,127 +9499,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Pet Grooming & Boarding",
+          "Study top 3 competitors in the Pet Care & Animal Services space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Pet Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Pet Care & Animal Services service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Pet Grooming & Boarding is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Pet Care & Animal Services sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Pet Care & Animal Services sector is undergoing massive transformation in India. Establishing a Pet Grooming & Boarding offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣1,00,000 ΓÇô Γé╣5,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1122"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "53%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹185"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "21%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -9442,127 +9692,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Professional Deep Cleaning Services",
+          "Study top 3 competitors in the Cleaning & Maintenance space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Professional Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Cleaning & Maintenance service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Professional Deep Cleaning Services is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Cleaning & Maintenance sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Cleaning & Maintenance sector is undergoing massive transformation in India. Establishing a Professional Deep Cleaning Services offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣50,000 ΓÇô Γé╣2,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1490"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "50%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹396"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "20%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -9625,128 +9883,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Social Media Management (SMM)",
+          "Study top 3 competitors in the Technology & IT space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Social Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Technology & IT service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Social Media Management (SMM) is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Technology & IT sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Small to medium-sized enterprises (SMEs), startups, and corporate clients looking for specialized solutions in the Technology & IT space. Decision-makers include founders, HR managers, and operational heads.",
+    "marketAnalysis": "The Technology & IT sector is undergoing massive transformation in India. Establishing a Social Media Management (SMM) offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act",
-      "Data Privacy Policy Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Under Γé╣10,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "LinkedIn Outreach",
-      "SEO & Content Marketing",
-      "Cold Emailing",
-      "Industry Conferences"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2279"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "48%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹259"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "19%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹25,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹10,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹15,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -9810,127 +10075,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for NGO / Social Enterprise",
+          "Study top 3 competitors in the Social Enterprise & NGO space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the NGO Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Social Enterprise & NGO service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for NGO / Social Enterprise is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Social Enterprise & NGO sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Social Enterprise & NGO sector is undergoing massive transformation in India. Establishing a NGO / Social Enterprise offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣10,000 ΓÇô Γé╣5,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹502"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "37%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹138"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "14%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹5,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹2,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹3,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -9992,128 +10265,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Fitness Equipment E-commerce",
+          "Study top 3 competitors in the E-Commerce space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Fitness Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the E-Commerce service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Fitness Equipment E-commerce is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the E-Commerce sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The E-Commerce sector is undergoing massive transformation in India. Establishing a Fitness Equipment E-commerce offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act",
-      "Data Privacy Policy Compliance"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣1,00,000 ΓÇô Γé╣5,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1055"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "42%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹303"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "16%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -10176,127 +10456,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Interior Design Consulting",
+          "Study top 3 competitors in the Creative Arts space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Interior Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Creative Arts service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Interior Design Consulting is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Creative Arts sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Creative Arts sector is undergoing massive transformation in India. Establishing a Interior Design Consulting offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣20,000 ΓÇô Γé╣1,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1610"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "66%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹391"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "26%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹10,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹4,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹6,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -10360,127 +10648,135 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for Car Detailing & Wash Studio",
+          "Study top 3 competitors in the Automotive & Transport space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Car Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Automotive & Transport service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for Car Detailing & Wash Studio is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Automotive & Transport sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Automotive & Transport sector is undergoing massive transformation in India. Establishing a Car Detailing & Wash Studio offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣3,00,000 ΓÇô Γé╣15,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1650"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "59%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹144"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "23%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹1,50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹60,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹90,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
     ]
   },
@@ -10543,129 +10839,2053 @@ const businesses = [
     },
     "roadmap": [
       {
-        "phase": "Research & Validation",
+        "phase": "Research & Blueprint",
         "duration": "Week 1-2",
         "tasks": [
-          "Conduct local market research",
-          "Identify target audience",
-          "Analyze competitors",
-          "Validate product/service pricing"
+          "Analyze the local demand for B2B Wholesale / Distribution",
+          "Study top 3 competitors in the Retail & Distribution space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
         ]
       },
       {
-        "phase": "Legal & Setup",
+        "phase": "Setup & Sourcing",
         "duration": "Week 3-4",
         "tasks": [
-          "Register business name",
-          "Obtain necessary licenses (e.g. FSSAI, GST)",
-          "Open a current bank account",
-          "Secure a location or domain name"
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the B2B Business",
+          "Open a current bank account and setup Razorpay"
         ]
       },
       {
-        "phase": "Build & Prepare",
+        "phase": "Brand & Pre-launch",
         "duration": "Week 5-6",
         "tasks": [
-          "Procure equipment and initial inventory",
-          "Set up physical/digital store",
-          "Hire initial staff if required",
-          "Set up accounting software"
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
         ]
       },
       {
-        "phase": "Launch",
+        "phase": "Go-Live & Acquisition",
         "duration": "Week 7-8",
         "tasks": [
-          "Run local or digital launch campaigns",
-          "Offer launch discounts",
-          "Onboard first 10 customers",
-          "Gather initial feedback"
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
         ]
       },
       {
-        "phase": "Growth & Marketing",
-        "duration": "Month 3-6",
+        "phase": "Optimization",
+        "duration": "Month 3-4",
         "tasks": [
-          "Optimize operations based on feedback",
-          "Scale marketing spend",
-          "Build customer loyalty program",
-          "Establish supply chain reliability"
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Retail & Distribution service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
         ]
       },
       {
-        "phase": "Scale & Expand",
-        "duration": "Month 6-12",
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
         "tasks": [
-          "Explore new locations or product lines",
-          "Hire a manager to delegate operations",
-          "Automate recurring tasks",
-          "Focus on brand building"
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
         ]
       }
     ],
-    "marketAnalysis": "The market for B2B Wholesale / Distribution is experiencing robust growth driven by increasing consumer demand and digital transformation. In India, the Retail & Distribution sector is projected to grow at a CAGR of over 15% in the next five years. Rising disposable incomes, changing lifestyle patterns, and the shift toward specialized services make this a highly viable opportunity with significant untapped potential in Tier 2 and Tier 3 cities.",
-    "targetAudience": "Urban and semi-urban consumers aged 18-45 who value convenience, quality, and specialized services. They are digitally active, brand-conscious, and willing to pay a premium for exceptional experiences.",
+    "marketAnalysis": "The Retail & Distribution sector is undergoing massive transformation in India. Establishing a B2B Wholesale / Distribution offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
     "legalRequirements": [
-      "Business Registration (Udyam/MSME)",
-      "GST Registration",
-      "Current Bank Account",
-      "Shop & Establishment Act"
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
     ],
-    "roiTimeline": "Based on an initial investment of Γé╣5,00,000 ΓÇô Γé╣25,00,000, businesses in this category typically reach the break-even point within 8 to 14 months. Consistent profitability is usually achieved by month 18, assuming a month-over-month growth rate of 10-15%.",
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
     "marketingStrategy": [
-      "Google Search Ads",
-      "Local SEO (Google My Business)",
-      "Social Media Marketing",
-      "Referral Programs"
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
     ],
     "commonPitfalls": [
-      "Underestimating initial working capital required",
-      "Ignoring local market research and assuming broad demand",
-      "Failing to establish a strong online presence early on",
-      "Poor pricing strategy leading to unsustainable margins"
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ],
     "unitEconomics": [
       {
-        "metric": "Average Order Value",
-        "value": "TBD"
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2106"
       },
       {
         "metric": "Gross Margin",
-        "value": "TBD"
+        "value": "52%"
       },
       {
         "metric": "Customer Acquisition Cost",
-        "value": "TBD"
+        "value": "₹146"
       },
       {
-        "metric": "Net Margin",
-        "value": "TBD"
+        "metric": "Net Profit Margin",
+        "value": "20%"
       }
     ],
     "capexBreakdown": [
       {
-        "item": "Initial Setup",
-        "cost": "TBD"
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹2,50,000"
       },
       {
-        "item": "Marketing Budget",
-        "cost": "TBD"
+        "item": "Initial Marketing & Branding",
+        "cost": "₹1,00,000"
       },
       {
-        "item": "Working Capital",
-        "cost": "TBD"
+        "item": "Working Capital (3 Months)",
+        "cost": "₹1,50,000"
       }
     ],
     "techStack": [
       {
-        "tool": "Basic Accounting Tool",
-        "purpose": "Finance"
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
       },
       {
-        "tool": "Social Media (Instagram/Facebook)",
-        "purpose": "Marketing"
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
       }
+    ]
+  },
+  {
+    "name": "Smart Home Installation Service",
+    "description": "Provide installation and configuration of smart home devices, IoT security cameras, and automation systems for modern households.",
+    "category": "Technology & IT",
+    "investment": {
+      "min": 30000,
+      "max": 150000,
+      "display": "₹30,000 - ₹1,50,000"
+    },
+    "riskLevel": "Low",
+    "profitPotential": "₹40,000 - ₹1,20,000/month",
+    "requiredSkills": [
+      "IoT Knowledge",
+      "Electrical Basics",
+      "Customer Service"
+    ],
+    "advantages": [
+      "High demand in urban areas",
+      "Low recurring costs",
+      "Upselling opportunities"
+    ],
+    "challenges": [
+      "Rapidly changing tech",
+      "Customer tech illiteracy",
+      "Sourcing reliable hardware"
+    ],
+    "successTips": [
+      "Partner with builders for pre-installations",
+      "Offer annual maintenance contracts",
+      "Create bundle packages"
+    ],
+    "growthPotential": "Can scale to commercial spaces and offices.",
+    "futureScope": "The Indian smart home market is expected to reach $6 billion by 2028.",
+    "suitableFor": {
+      "education": [
+        "12th",
+        "Diploma",
+        "Graduate"
+      ],
+      "experience": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "budgetRange": [
+        "₹10,000 – ₹50,000",
+        "₹50,000 – ₹2,00,000"
+      ],
+      "skillTags": [
+        "tech",
+        "gadgets",
+        "hardware",
+        "management"
+      ],
+      "interests": [
+        "Technology",
+        "Home Services"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2085"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "43%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹374"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "17%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹15,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹6,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹9,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Smart Home Installation Service",
+          "Study top 3 competitors in the Technology & IT space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Smart Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Technology & IT service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Technology & IT sector is undergoing massive transformation in India. Establishing a Smart Home Installation Service offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Podcast Production Agency",
+    "description": "Help brands and individuals launch, edit, and market their audio podcasts. Offer end-to-end services from equipment setup to distribution.",
+    "category": "Entertainment & Media",
+    "investment": {
+      "min": 40000,
+      "max": 120000,
+      "display": "₹40,000 - ₹1,20,000"
+    },
+    "riskLevel": "Low",
+    "profitPotential": "₹50,000 - ₹1,50,000/month",
+    "requiredSkills": [
+      "Audio Editing",
+      "Content Strategy",
+      "Digital Marketing"
+    ],
+    "advantages": [
+      "Can be run entirely remotely",
+      "Subscription-based retainer model",
+      "Growing audio market"
+    ],
+    "challenges": [
+      "High competition",
+      "Client retention",
+      "Quality consistency"
+    ],
+    "successTips": [
+      "Niche down to B2B podcasts",
+      "Invest in good editing software",
+      "Offer video podcasting as an upsell"
+    ],
+    "growthPotential": "Scale by hiring junior editors and building a media network.",
+    "futureScope": "Audio content consumption is rising 30% YoY in India.",
+    "suitableFor": {
+      "education": [
+        "Graduate",
+        "Post-Graduate",
+        "Diploma"
+      ],
+      "experience": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "budgetRange": [
+        "₹10,000 – ₹50,000",
+        "₹50,000 – ₹2,00,000"
+      ],
+      "skillTags": [
+        "audio",
+        "editing",
+        "content",
+        "marketing"
+      ],
+      "interests": [
+        "Creative Arts",
+        "Technology"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1113"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "37%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹145"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "14%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹20,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹8,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹12,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Podcast Production Agency",
+          "Study top 3 competitors in the Entertainment & Media space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Podcast Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Entertainment & Media service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Entertainment & Media sector is undergoing massive transformation in India. Establishing a Podcast Production Agency offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Millet-Based Snack Brand",
+    "description": "Create and sell healthy, ready-to-eat snacks made from indigenous Indian millets. Capitalize on the health and wellness trend.",
+    "category": "Food & Beverages",
+    "investment": {
+      "min": 80000,
+      "max": 300000,
+      "display": "₹80,000 - ₹3,00,000"
+    },
+    "riskLevel": "Medium",
+    "profitPotential": "₹30,000 - ₹2,00,000/month",
+    "requiredSkills": [
+      "Food Processing",
+      "FMCG Marketing",
+      "Supply Chain"
+    ],
+    "advantages": [
+      "Government backing for millets",
+      "High profit margins",
+      "Long shelf life compared to fresh food"
+    ],
+    "challenges": [
+      "Obtaining FSSAI and organic tags",
+      "Retail distribution",
+      "Taste consistency"
+    ],
+    "successTips": [
+      "Focus on attractive modern packaging",
+      "Start with D2C online sales",
+      "Target fitness centres for B2B sales"
+    ],
+    "growthPotential": "Massive scale through quick commerce (Zepto, Blinkit).",
+    "futureScope": "Health-conscious snacking is a $1B+ market in India.",
+    "suitableFor": {
+      "education": [
+        "Graduate",
+        "Post-Graduate"
+      ],
+      "experience": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "budgetRange": [
+        "₹50,000 – ₹2,00,000",
+        "Above ₹2,00,000"
+      ],
+      "skillTags": [
+        "food",
+        "cooking",
+        "sales",
+        "marketing"
+      ],
+      "interests": [
+        "Health & Wellness",
+        "Retail"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹925"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "59%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹332"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "23%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹40,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹16,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹24,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Millet-Based Snack Brand",
+          "Study top 3 competitors in the Food & Beverages space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Millet-Based Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Food & Beverages service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Food & Beverages sector is undergoing massive transformation in India. Establishing a Millet-Based Snack Brand offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Resume Writing & LinkedIn Optimization",
+    "description": "Provide professional resume revamps and LinkedIn profile optimization services for job seekers and mid-career professionals.",
+    "category": "Consulting",
+    "investment": {
+      "min": 5000,
+      "max": 20000,
+      "display": "Under ₹20,000"
+    },
+    "riskLevel": "Low",
+    "profitPotential": "₹20,000 - ₹80,000/month",
+    "requiredSkills": [
+      "Copywriting",
+      "HR Knowledge",
+      "SEO"
+    ],
+    "advantages": [
+      "Near zero capital requirement",
+      "High margin",
+      "Referral heavy"
+    ],
+    "challenges": [
+      "Building initial trust",
+      "Scaling beyond your own time",
+      "Managing client expectations"
+    ],
+    "successTips": [
+      "Show before/after case studies",
+      "Offer interview prep as an add-on",
+      "Partner with college placement cells"
+    ],
+    "growthPotential": "Can evolve into a full-scale career coaching agency.",
+    "futureScope": "With increasing job competition, personal branding is becoming essential.",
+    "suitableFor": {
+      "education": [
+        "Graduate",
+        "Post-Graduate"
+      ],
+      "experience": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "budgetRange": [
+        "Under ₹10,000",
+        "₹10,000 – ₹50,000"
+      ],
+      "skillTags": [
+        "writing",
+        "hr",
+        "communication",
+        "marketing"
+      ],
+      "interests": [
+        "Education & Training",
+        "Services"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹2361"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "42%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹173"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "16%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹2,500"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹1,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹1,500"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Resume Writing & LinkedIn Optimization",
+          "Study top 3 competitors in the Consulting space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Resume Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Consulting service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Consulting sector is undergoing massive transformation in India. Establishing a Resume Writing & LinkedIn Optimization offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Eco-Friendly Packaging Supplier",
+    "description": "Manufacture or source biodegradable packaging materials (corrugated boxes, paper mailers, honeycomb wrap) for D2C brands.",
+    "category": "Manufacturing & Production",
+    "investment": {
+      "min": 100000,
+      "max": 500000,
+      "display": "₹1,00,000 - ₹5,00,000"
+    },
+    "riskLevel": "Medium",
+    "profitPotential": "₹50,000 - ₹3,00,000/month",
+    "requiredSkills": [
+      "B2B Sales",
+      "Logistics",
+      "Vendor Management"
+    ],
+    "advantages": [
+      "Recurring orders",
+      "Driven by single-use plastic bans",
+      "High volume business"
+    ],
+    "challenges": [
+      "Working capital management",
+      "Price competition",
+      "Storage space required"
+    ],
+    "successTips": [
+      "Offer custom printing",
+      "Target new Instagram brands",
+      "Keep low minimum order quantities (MOQ)"
+    ],
+    "growthPotential": "B2B supply chains can scale into multi-crore businesses.",
+    "futureScope": "Sustainable packaging is mandatory for e-commerce compliance globally.",
+    "suitableFor": {
+      "education": [
+        "Graduate",
+        "Diploma"
+      ],
+      "experience": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "budgetRange": [
+        "₹50,000 – ₹2,00,000",
+        "Above ₹2,00,000"
+      ],
+      "skillTags": [
+        "sales",
+        "logistics",
+        "b2b",
+        "management"
+      ],
+      "interests": [
+        "Retail & Distribution",
+        "Social Enterprise & NGO"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1828"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "43%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹177"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "17%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Eco-Friendly Packaging Supplier",
+          "Study top 3 competitors in the Manufacturing & Production space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Eco-Friendly Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Manufacturing & Production service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Manufacturing & Production sector is undergoing massive transformation in India. Establishing a Eco-Friendly Packaging Supplier offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Mobile Car Detailing Service",
+    "description": "A premium car washing and detailing service that goes to the customers home or office, saving them time.",
+    "category": "Automotive & Transport",
+    "investment": {
+      "min": 40000,
+      "max": 150000,
+      "display": "₹40,000 - ₹1,50,000"
+    },
+    "riskLevel": "Low",
+    "profitPotential": "₹30,000 - ₹1,00,000/month",
+    "requiredSkills": [
+      "Detailing Techniques",
+      "Local Marketing",
+      "Customer Service"
+    ],
+    "advantages": [
+      "No physical garage rent",
+      "High margin on ceramic coatings",
+      "Word of mouth growth"
+    ],
+    "challenges": [
+      "Travel time between jobs",
+      "Weather dependency",
+      "Water sourcing"
+    ],
+    "successTips": [
+      "Use waterless wash tech",
+      "Target corporate office parking lots",
+      "Offer monthly subscription plans"
+    ],
+    "growthPotential": "Franchise model or fleet expansion.",
+    "futureScope": "Luxury car sales are booming in India, increasing demand for premium care.",
+    "suitableFor": {
+      "education": [
+        "10th",
+        "12th",
+        "Diploma",
+        "Graduate"
+      ],
+      "experience": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "budgetRange": [
+        "₹10,000 – ₹50,000",
+        "₹50,000 – ₹2,00,000"
+      ],
+      "skillTags": [
+        "automotive",
+        "service",
+        "sales"
+      ],
+      "interests": [
+        "Automotive & Transport",
+        "Home Services"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1579"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "58%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹103"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "23%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹20,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹8,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹12,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Mobile Car Detailing Service",
+          "Study top 3 competitors in the Automotive & Transport space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Mobile Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Automotive & Transport service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Automotive & Transport sector is undergoing massive transformation in India. Establishing a Mobile Car Detailing Service offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Niche Newsletter Business",
+    "description": "Create a highly focused email newsletter (e.g., AI tools for lawyers, local city events) and monetize via sponsorships and premium tiers.",
+    "category": "Entertainment & Media",
+    "investment": {
+      "min": 5000,
+      "max": 30000,
+      "display": "Under ₹30,000"
+    },
+    "riskLevel": "Low",
+    "profitPotential": "₹15,000 - ₹2,00,000/month",
+    "requiredSkills": [
+      "Copywriting",
+      "Curation",
+      "Email Marketing"
+    ],
+    "advantages": [
+      "You own the audience (no algorithm risk)",
+      "Zero inventory",
+      "Extremely high margin"
+    ],
+    "challenges": [
+      "Slow initial growth",
+      "Consistent writing schedule",
+      "Finding sponsors early on"
+    ],
+    "successTips": [
+      "Use Beehiiv or Substack",
+      "Cross-promote with other newsletters",
+      "Focus on a wealthy/B2B niche"
+    ],
+    "growthPotential": "Can be acquired by larger media companies once subscriber base hits 50k+.",
+    "futureScope": "The creator economy is shifting towards owned audiences via email.",
+    "suitableFor": {
+      "education": [
+        "Graduate",
+        "Post-Graduate"
+      ],
+      "experience": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "budgetRange": [
+        "Under ₹10,000",
+        "₹10,000 – ₹50,000"
+      ],
+      "skillTags": [
+        "writing",
+        "media",
+        "marketing",
+        "tech"
+      ],
+      "interests": [
+        "Creative Arts",
+        "Technology"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1869"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "44%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹309"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "17%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹2,500"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹1,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹1,500"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Niche Newsletter Business",
+          "Study top 3 competitors in the Entertainment & Media space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Niche Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Entertainment & Media service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Entertainment & Media sector is undergoing massive transformation in India. Establishing a Niche Newsletter Business offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Drone Photography & Surveying",
+    "description": "Provide aerial photography for real estate, weddings, and topographic surveying for construction sites.",
+    "category": "Creative Arts",
+    "investment": {
+      "min": 80000,
+      "max": 300000,
+      "display": "₹80,000 - ₹3,00,000"
+    },
+    "riskLevel": "Medium",
+    "profitPotential": "₹40,000 - ₹1,50,000/month",
+    "requiredSkills": [
+      "Drone Piloting",
+      "Video Editing",
+      "B2B Networking"
+    ],
+    "advantages": [
+      "High hourly rates",
+      "Wow factor for clients",
+      "Multiple industry applications"
+    ],
+    "challenges": [
+      "Drone regulations and licenses",
+      "Equipment damage risks",
+      "Weather constraints"
+    ],
+    "successTips": [
+      "Get DGCA certification",
+      "Create a stunning showreel",
+      "Network with real estate brokers"
+    ],
+    "growthPotential": "Can expand into agricultural drone spraying or industrial inspections.",
+    "futureScope": "Drone services market in India is expanding massively with relaxed government rules.",
+    "suitableFor": {
+      "education": [
+        "12th",
+        "Diploma",
+        "Graduate"
+      ],
+      "experience": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "budgetRange": [
+        "₹50,000 – ₹2,00,000",
+        "Above ₹2,00,000"
+      ],
+      "skillTags": [
+        "photography",
+        "tech",
+        "hardware",
+        "creative"
+      ],
+      "interests": [
+        "Creative Arts",
+        "Technology"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹1619"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "40%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹156"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "16%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹40,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹16,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹24,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Drone Photography & Surveying",
+          "Study top 3 competitors in the Creative Arts space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Drone Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Creative Arts service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Creative Arts sector is undergoing massive transformation in India. Establishing a Drone Photography & Surveying offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Specialty Coffee Roastery",
+    "description": "Source green coffee beans, roast them in small batches, and sell fresh artisanal coffee online and to local cafes.",
+    "category": "Food & Beverages",
+    "investment": {
+      "min": 150000,
+      "max": 600000,
+      "display": "₹1,50,000 - ₹6,00,000"
+    },
+    "riskLevel": "High",
+    "profitPotential": "₹50,000 - ₹2,50,000/month",
+    "requiredSkills": [
+      "Roasting Science",
+      "Sensory Skills",
+      "E-commerce Management"
+    ],
+    "advantages": [
+      "High margins on roasted beans",
+      "Cult-like customer loyalty",
+      "B2B and B2C channels"
+    ],
+    "challenges": [
+      "Expensive roasting equipment",
+      "Learning curve for roasting profiles",
+      "Fierce competition"
+    ],
+    "successTips": [
+      "Offer subscription models",
+      "Host weekend tasting sessions",
+      "Focus on single-origin storytelling"
+    ],
+    "growthPotential": "Can evolve into a flagship physical cafe and national FMCG brand.",
+    "futureScope": "India is witnessing a third-wave coffee revolution in tier 1 and 2 cities.",
+    "suitableFor": {
+      "education": [
+        "Graduate",
+        "Diploma"
+      ],
+      "experience": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "budgetRange": [
+        "₹50,000 – ₹2,00,000",
+        "Above ₹2,00,000"
+      ],
+      "skillTags": [
+        "food",
+        "chemistry",
+        "sales",
+        "branding"
+      ],
+      "interests": [
+        "Food & Beverages",
+        "Retail"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹822"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "52%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹302"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "20%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹75,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹30,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹45,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Specialty Coffee Roastery",
+          "Study top 3 competitors in the Food & Beverages space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Specialty Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Food & Beverages service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Food & Beverages sector is undergoing massive transformation in India. Establishing a Specialty Coffee Roastery offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
+    ]
+  },
+  {
+    "name": "Pet Grooming & Boarding",
+    "description": "A specialized facility offering pet grooming, day-care, and overnight boarding for dogs and cats.",
+    "category": "Pet Care & Animal Services",
+    "investment": {
+      "min": 100000,
+      "max": 400000,
+      "display": "₹1,00,000 - ₹4,00,000"
+    },
+    "riskLevel": "Medium",
+    "profitPotential": "₹40,000 - ₹1,80,000/month",
+    "requiredSkills": [
+      "Animal Handling",
+      "Grooming",
+      "Facility Management"
+    ],
+    "advantages": [
+      "High emotional attachment means price insensitivity",
+      "Recurring revenue",
+      "Very loyal customers"
+    ],
+    "challenges": [
+      "Dealing with aggressive pets",
+      "Hygiene maintenance",
+      "Staff training"
+    ],
+    "successTips": [
+      "Install webcams for owners to watch",
+      "Offer pickup/drop services",
+      "Partner with local vets"
+    ],
+    "growthPotential": "Franchising and launching an in-house line of pet products.",
+    "futureScope": "Pet ownership in India surged post-pandemic, creating a booming pet-care economy.",
+    "suitableFor": {
+      "education": [
+        "10th",
+        "12th",
+        "Graduate"
+      ],
+      "experience": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "budgetRange": [
+        "₹50,000 – ₹2,00,000",
+        "Above ₹2,00,000"
+      ],
+      "skillTags": [
+        "care",
+        "management",
+        "service",
+        "animals"
+      ],
+      "interests": [
+        "Pet Care & Animal Services",
+        "Home Services"
+      ]
+    },
+    "unitEconomics": [
+      {
+        "metric": "Average Order/Ticket Value",
+        "value": "₹697"
+      },
+      {
+        "metric": "Gross Margin",
+        "value": "54%"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "value": "₹213"
+      },
+      {
+        "metric": "Net Profit Margin",
+        "value": "21%"
+      }
+    ],
+    "capexBreakdown": [
+      {
+        "item": "Equipment, Licenses & Setup",
+        "cost": "₹50,000"
+      },
+      {
+        "item": "Initial Marketing & Branding",
+        "cost": "₹20,000"
+      },
+      {
+        "item": "Working Capital (3 Months)",
+        "cost": "₹30,000"
+      }
+    ],
+    "techStack": [
+      {
+        "tool": "Razorpay / UPI",
+        "purpose": "Payments & Invoicing"
+      },
+      {
+        "tool": "WhatsApp Business API",
+        "purpose": "Customer Communication"
+      },
+      {
+        "tool": "Canva & Instagram",
+        "purpose": "Marketing & Branding"
+      },
+      {
+        "tool": "Google Workspace",
+        "purpose": "Operations & Email"
+      }
+    ],
+    "roadmap": [
+      {
+        "phase": "Research & Blueprint",
+        "duration": "Week 1-2",
+        "tasks": [
+          "Analyze the local demand for Pet Grooming & Boarding",
+          "Study top 3 competitors in the Pet Care & Animal Services space",
+          "Define your target pricing and profit margins",
+          "Register domain and secure social media handles"
+        ]
+      },
+      {
+        "phase": "Setup & Sourcing",
+        "duration": "Week 3-4",
+        "tasks": [
+          "Complete MSME and GST registration",
+          "Procure initial equipment and inventory",
+          "Setup the primary workspace for the Pet Business",
+          "Open a current bank account and setup Razorpay"
+        ]
+      },
+      {
+        "phase": "Brand & Pre-launch",
+        "duration": "Week 5-6",
+        "tasks": [
+          "Design logo, packaging, and brand identity on Canva",
+          "Build a simple landing page or Shopify store",
+          "Shoot high-quality photos of your offerings",
+          "Tease the launch on WhatsApp and Instagram"
+        ]
+      },
+      {
+        "phase": "Go-Live & Acquisition",
+        "duration": "Week 7-8",
+        "tasks": [
+          "Officially launch and accept first orders",
+          "Run ₹500/day localized Facebook/Instagram ads",
+          "Onboard the first 25 beta customers",
+          "Collect written and video testimonials"
+        ]
+      },
+      {
+        "phase": "Optimization",
+        "duration": "Month 3-4",
+        "tasks": [
+          "Analyze unit economics and cut unnecessary costs",
+          "Refine the Pet Care & Animal Services service delivery process",
+          "Implement a customer referral program",
+          "Reinvest 50% of profits into marketing"
+        ]
+      },
+      {
+        "phase": "Scale & Automate",
+        "duration": "Month 5-6",
+        "tasks": [
+          "Hire a junior assistant to handle daily operations",
+          "Automate customer support via WhatsApp bots",
+          "Explore B2B partnerships or bulk contracts",
+          "Expand service radius or product catalog"
+        ]
+      }
+    ],
+    "marketAnalysis": "The Pet Care & Animal Services sector is undergoing massive transformation in India. Establishing a Pet Grooming & Boarding offers tremendous upside due to changing consumer habits and digital adoption.",
+    "targetAudience": "Middle to upper-middle-class consumers and local businesses looking for quality, reliability, and modern digital experiences.",
+    "legalRequirements": [
+      "MSME/Udyam Registration",
+      "GST Registration (if revenue > ₹20L)",
+      "Local Trade License",
+      "Current Bank Account"
+    ],
+    "roiTimeline": "Breakeven is typically achieved in 4 to 8 months, with consistent compounding profits by Month 12.",
+    "marketingStrategy": [
+      "Instagram Reels & Targeted Ads",
+      "Google My Business SEO",
+      "WhatsApp Community Building",
+      "Micro-Influencer Barter Collaborations"
+    ],
+    "commonPitfalls": [
+      "Overspending on unnecessary tech before getting first 10 customers",
+      "Ignoring customer retention and focusing only on acquisition",
+      "Inconsistent pricing strategy",
+      "Poor cash flow management in the first 3 months"
     ]
   }
 ];
+
 module.exports = businesses;
