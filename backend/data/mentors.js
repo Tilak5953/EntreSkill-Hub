@@ -13,7 +13,7 @@ const mentors = [
     "experienceYears": 18,
     "rating": "5.0",
     "reviews": 224,
-    "priceSession": 1999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -29,7 +29,7 @@ const mentors = [
     "experienceYears": 13,
     "rating": "4.6",
     "reviews": 236,
-    "priceSession": 1999,
+    "priceSession": 849,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -45,7 +45,7 @@ const mentors = [
     "experienceYears": 10,
     "rating": "4.9",
     "reviews": 182,
-    "priceSession": 2999,
+    "priceSession": 749,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -61,7 +61,7 @@ const mentors = [
     "experienceYears": 9,
     "rating": "4.7",
     "reviews": 374,
-    "priceSession": 1499,
+    "priceSession": 749,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -77,7 +77,7 @@ const mentors = [
     "experienceYears": 6,
     "rating": "4.9",
     "reviews": 64,
-    "priceSession": 1499,
+    "priceSession": 599,
     "bio": "Former top-tier consultant turned operator. I bring structure to chaos. Whether it's unit economics, operational efficiency, or strategic pivots, I provide actionable, no-nonsense advice."
   },
   {
@@ -93,7 +93,7 @@ const mentors = [
     "experienceYears": 6,
     "rating": "4.8",
     "reviews": 189,
-    "priceSession": 2999,
+    "priceSession": 599,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -109,7 +109,7 @@ const mentors = [
     "experienceYears": 6,
     "rating": "4.6",
     "reviews": 199,
-    "priceSession": 4999,
+    "priceSession": 599,
     "bio": "Former top-tier consultant turned operator. I bring structure to chaos. Whether it's unit economics, operational efficiency, or strategic pivots, I provide actionable, no-nonsense advice."
   },
   {
@@ -125,7 +125,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "4.5",
     "reviews": 231,
-    "priceSession": 3499,
+    "priceSession": 849,
     "bio": "Former top-tier consultant turned operator. I bring structure to chaos. Whether it's unit economics, operational efficiency, or strategic pivots, I provide actionable, no-nonsense advice."
   },
   {
@@ -141,7 +141,7 @@ const mentors = [
     "experienceYears": 15,
     "rating": "4.8",
     "reviews": 255,
-    "priceSession": 4999,
+    "priceSession": 849,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -157,7 +157,7 @@ const mentors = [
     "experienceYears": 16,
     "rating": "4.6",
     "reviews": 138,
-    "priceSession": 2499,
+    "priceSession": 849,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -173,7 +173,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "4.9",
     "reviews": 124,
-    "priceSession": 2999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -189,7 +189,7 @@ const mentors = [
     "experienceYears": 5,
     "rating": "4.8",
     "reviews": 103,
-    "priceSession": 2499,
+    "priceSession": 599,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -205,7 +205,7 @@ const mentors = [
     "experienceYears": 8,
     "rating": "5.0",
     "reviews": 315,
-    "priceSession": 2999,
+    "priceSession": 749,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -221,7 +221,7 @@ const mentors = [
     "experienceYears": 18,
     "rating": "4.6",
     "reviews": 129,
-    "priceSession": 2999,
+    "priceSession": 849,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -237,7 +237,7 @@ const mentors = [
     "experienceYears": 14,
     "rating": "5.0",
     "reviews": 431,
-    "priceSession": 2999,
+    "priceSession": 849,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -253,7 +253,7 @@ const mentors = [
     "experienceYears": 18,
     "rating": "4.7",
     "reviews": 103,
-    "priceSession": 999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -269,7 +269,7 @@ const mentors = [
     "experienceYears": 16,
     "rating": "4.8",
     "reviews": 131,
-    "priceSession": 1499,
+    "priceSession": 849,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -285,7 +285,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "4.8",
     "reviews": 406,
-    "priceSession": 4999,
+    "priceSession": 849,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -301,7 +301,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "4.6",
     "reviews": 193,
-    "priceSession": 1499,
+    "priceSession": 849,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -317,7 +317,7 @@ const mentors = [
     "experienceYears": 11,
     "rating": "4.7",
     "reviews": 170,
-    "priceSession": 3499,
+    "priceSession": 749,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -333,7 +333,7 @@ const mentors = [
     "experienceYears": 11,
     "rating": "4.8",
     "reviews": 322,
-    "priceSession": 2499,
+    "priceSession": 749,
     "bio": "Former top-tier consultant turned operator. I bring structure to chaos. Whether it's unit economics, operational efficiency, or strategic pivots, I provide actionable, no-nonsense advice."
   },
   {
@@ -349,7 +349,7 @@ const mentors = [
     "experienceYears": 9,
     "rating": "4.7",
     "reviews": 226,
-    "priceSession": 1999,
+    "priceSession": 749,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -365,7 +365,7 @@ const mentors = [
     "experienceYears": 18,
     "rating": "4.6",
     "reviews": 329,
-    "priceSession": 4999,
+    "priceSession": 849,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -381,7 +381,7 @@ const mentors = [
     "experienceYears": 6,
     "rating": "4.6",
     "reviews": 312,
-    "priceSession": 2999,
+    "priceSession": 599,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -397,7 +397,7 @@ const mentors = [
     "experienceYears": 14,
     "rating": "4.7",
     "reviews": 236,
-    "priceSession": 2499,
+    "priceSession": 849,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -413,7 +413,7 @@ const mentors = [
     "experienceYears": 12,
     "rating": "4.8",
     "reviews": 150,
-    "priceSession": 4999,
+    "priceSession": 749,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -429,7 +429,7 @@ const mentors = [
     "experienceYears": 16,
     "rating": "5.0",
     "reviews": 199,
-    "priceSession": 1499,
+    "priceSession": 849,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -445,7 +445,7 @@ const mentors = [
     "experienceYears": 8,
     "rating": "4.6",
     "reviews": 201,
-    "priceSession": 1999,
+    "priceSession": 749,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -461,7 +461,7 @@ const mentors = [
     "experienceYears": 18,
     "rating": "4.7",
     "reviews": 270,
-    "priceSession": 2999,
+    "priceSession": 849,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -477,7 +477,7 @@ const mentors = [
     "experienceYears": 12,
     "rating": "4.9",
     "reviews": 116,
-    "priceSession": 3499,
+    "priceSession": 749,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -493,7 +493,7 @@ const mentors = [
     "experienceYears": 7,
     "rating": "4.6",
     "reviews": 186,
-    "priceSession": 2499,
+    "priceSession": 599,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -509,7 +509,7 @@ const mentors = [
     "experienceYears": 15,
     "rating": "4.7",
     "reviews": 358,
-    "priceSession": 2999,
+    "priceSession": 849,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -525,7 +525,7 @@ const mentors = [
     "experienceYears": 6,
     "rating": "4.7",
     "reviews": 296,
-    "priceSession": 3499,
+    "priceSession": 599,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -541,7 +541,7 @@ const mentors = [
     "experienceYears": 13,
     "rating": "4.6",
     "reviews": 416,
-    "priceSession": 2999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -557,7 +557,7 @@ const mentors = [
     "experienceYears": 8,
     "rating": "4.9",
     "reviews": 381,
-    "priceSession": 2999,
+    "priceSession": 749,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -573,7 +573,7 @@ const mentors = [
     "experienceYears": 19,
     "rating": "4.8",
     "reviews": 376,
-    "priceSession": 2499,
+    "priceSession": 999,
     "bio": "Former top-tier consultant turned operator. I bring structure to chaos. Whether it's unit economics, operational efficiency, or strategic pivots, I provide actionable, no-nonsense advice."
   },
   {
@@ -589,7 +589,7 @@ const mentors = [
     "experienceYears": 19,
     "rating": "4.6",
     "reviews": 172,
-    "priceSession": 1499,
+    "priceSession": 999,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -605,7 +605,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "5.0",
     "reviews": 267,
-    "priceSession": 1499,
+    "priceSession": 849,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -621,7 +621,7 @@ const mentors = [
     "experienceYears": 19,
     "rating": "4.8",
     "reviews": 202,
-    "priceSession": 2999,
+    "priceSession": 999,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -637,7 +637,7 @@ const mentors = [
     "experienceYears": 13,
     "rating": "4.5",
     "reviews": 424,
-    "priceSession": 2999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -653,7 +653,7 @@ const mentors = [
     "experienceYears": 6,
     "rating": "4.5",
     "reviews": 152,
-    "priceSession": 4999,
+    "priceSession": 599,
     "bio": "Former top-tier consultant turned operator. I bring structure to chaos. Whether it's unit economics, operational efficiency, or strategic pivots, I provide actionable, no-nonsense advice."
   },
   {
@@ -669,7 +669,7 @@ const mentors = [
     "experienceYears": 13,
     "rating": "4.9",
     "reviews": 284,
-    "priceSession": 999,
+    "priceSession": 849,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -685,7 +685,7 @@ const mentors = [
     "experienceYears": 10,
     "rating": "4.9",
     "reviews": 70,
-    "priceSession": 1999,
+    "priceSession": 749,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -701,7 +701,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "4.7",
     "reviews": 210,
-    "priceSession": 999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -717,7 +717,7 @@ const mentors = [
     "experienceYears": 9,
     "rating": "4.6",
     "reviews": 349,
-    "priceSession": 1499,
+    "priceSession": 749,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -733,7 +733,7 @@ const mentors = [
     "experienceYears": 19,
     "rating": "4.8",
     "reviews": 141,
-    "priceSession": 3499,
+    "priceSession": 999,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -749,7 +749,7 @@ const mentors = [
     "experienceYears": 5,
     "rating": "4.6",
     "reviews": 421,
-    "priceSession": 2999,
+    "priceSession": 599,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -765,7 +765,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "4.7",
     "reviews": 343,
-    "priceSession": 1999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -781,7 +781,7 @@ const mentors = [
     "experienceYears": 16,
     "rating": "4.5",
     "reviews": 413,
-    "priceSession": 1999,
+    "priceSession": 849,
     "bio": "I specialize in scaling products from 0 to 1, and 1 to 100. If you are struggling with customer acquisition, retention, or just need a solid growth loop, I can help you build a profitable engine."
   },
   {
@@ -797,7 +797,7 @@ const mentors = [
     "experienceYears": 9,
     "rating": "4.8",
     "reviews": 347,
-    "priceSession": 2999,
+    "priceSession": 749,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -813,7 +813,7 @@ const mentors = [
     "experienceYears": 16,
     "rating": "4.8",
     "reviews": 339,
-    "priceSession": 1499,
+    "priceSession": 849,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -829,7 +829,7 @@ const mentors = [
     "experienceYears": 16,
     "rating": "4.5",
     "reviews": 270,
-    "priceSession": 999,
+    "priceSession": 849,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   },
   {
@@ -845,7 +845,7 @@ const mentors = [
     "experienceYears": 18,
     "rating": "4.7",
     "reviews": 407,
-    "priceSession": 4999,
+    "priceSession": 849,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -861,7 +861,7 @@ const mentors = [
     "experienceYears": 5,
     "rating": "4.8",
     "reviews": 419,
-    "priceSession": 4999,
+    "priceSession": 599,
     "bio": "Raised multiple rounds of VC funding and understand exactly what investors look for. Let me help you perfect your pitch deck, financial model, and narrative before you step into the room."
   },
   {
@@ -877,7 +877,7 @@ const mentors = [
     "experienceYears": 5,
     "rating": "4.7",
     "reviews": 95,
-    "priceSession": 1999,
+    "priceSession": 599,
     "bio": "Passionate about consumer brands, D2C, and e-commerce. I've navigated the complexities of supply chain, performance marketing, and Shopify optimization to build 8-figure businesses."
   },
   {
@@ -893,7 +893,7 @@ const mentors = [
     "experienceYears": 14,
     "rating": "4.9",
     "reviews": 101,
-    "priceSession": 3499,
+    "priceSession": 849,
     "bio": "Former top-tier consultant turned operator. I bring structure to chaos. Whether it's unit economics, operational efficiency, or strategic pivots, I provide actionable, no-nonsense advice."
   },
   {
@@ -909,7 +909,7 @@ const mentors = [
     "experienceYears": 7,
     "rating": "4.5",
     "reviews": 150,
-    "priceSession": 2499,
+    "priceSession": 599,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -925,7 +925,7 @@ const mentors = [
     "experienceYears": 5,
     "rating": "4.8",
     "reviews": 148,
-    "priceSession": 1499,
+    "priceSession": 599,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -941,7 +941,7 @@ const mentors = [
     "experienceYears": 17,
     "rating": "4.8",
     "reviews": 436,
-    "priceSession": 999,
+    "priceSession": 849,
     "bio": "Deep expertise in B2B SaaS and enterprise sales. Transitioning from founder-led sales to a predictable revenue machine is hard. I provide the playbook to get you there."
   },
   {
@@ -957,8 +957,9 @@ const mentors = [
     "experienceYears": 10,
     "rating": "4.6",
     "reviews": 186,
-    "priceSession": 2999,
+    "priceSession": 749,
     "bio": "Built and managed high-performing engineering and product teams. If your tech stack is crumbling under scale or you need to hire your first 10 engineers, we should talk."
   }
 ];
+
 module.exports = mentors;
