@@ -30,98 +30,6 @@ const categoryLabels = {
   businessKnowledge: 'Business Knowledge',
 };
 
-function Header() {
-  return (
-    <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-violet-600 flex items-center justify-center">
-            <span className="text-white font-bold text-sm font-display">E</span>
-          </div>
-          <span className="font-display font-bold text-gray-900 text-base">Entre<span className="gradient-text">Skill</span> Hub</span>
-        </Link>
-        <Link to="/dashboard" className="btn-ghost text-sm">← Dashboard</Link>
-      </div>
-    </header>
-  );
-}
-
-// Results view after submission
-function Results({ result, onRetake }) {
-  const navigate = useNavigate();
-  const sorted = Object.entries(result.categoryScores).sort((a, b) => b[1] - a[1]);
-  return (
-    <div className="max-w-2xl mx-auto px-4 py-10">
-      <div className="text-center mb-8">
-        <span className="section-tag mb-3">Assessment Complete</span>
-        <h1 className="font-display font-extrabold text-3xl text-gray-900 mb-2">Your Results</h1>
-      </div>
-
-      {/* Score circle */}
-      <div className="card p-8 text-center mb-6">
-        <div className="relative w-36 h-36 mx-auto mb-4">
-          <svg className="w-full h-full -rotate-90" viewBox="0 0 120 120">
-            <circle cx="60" cy="60" r="52" fill="none" stroke="#f1f5f9" strokeWidth="10" />
-            <circle cx="60" cy="60" r="52" fill="none" stroke="url(#grad)" strokeWidth="10" strokeLinecap="round" strokeDasharray={`${(result.overallScore / 100) * 327} 327`} />
-            <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#6366f1" /><stop offset="100%" stopColor="#8b5cf6" /></linearGradient></defs>
-          </svg>
-          <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <span className="font-display font-extrabold text-3xl text-gray-900">{result.overallScore}</span>
-            <span className="text-xs text-gray-400">/ 100</span>
-          </div>
-        </div>
-        <h2 className="font-display font-bold text-xl text-gray-900 mb-1">Overall Score</h2>
-        <p className="text-gray-500 text-sm">Based on 25 questions across 9 categories</p>
-      </div>
-
-      {/* Category scores */}
-      <div className="card p-6 mb-6">
-        <h3 className="font-display font-bold text-base text-gray-900 mb-4">Category Breakdown</h3>
-        <div className="space-y-3">
-          {sorted.map(([cat, score]) => (
-            <div key={cat}>
-              <div className="flex justify-between text-sm mb-1">
-                <span className="font-medium text-gray-700">{categoryLabels[cat]}</span>
-                <span className="font-bold text-gray-500">{score}%</span>
-              </div>
-              <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                <div className={`h-full rounded-full bg-gradient-to-r ${categoryColors[cat]}`} style={{ width: `${score}%` }} />
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Strengths & Weaknesses */}
-      <div className="grid sm:grid-cols-2 gap-4 mb-6">
-        <div className="card p-5">
-          <h3 className="font-bold text-sm text-emerald-700 mb-3">💪 Top Strengths</h3>
-          <div className="space-y-2">
-            {result.strengths.map((s) => (
-              <span key={s} className="inline-block bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-semibold px-3 py-1 rounded-full mr-2 mb-1">{s}</span>
-            ))}
-          </div>
-        </div>
-        <div className="card p-5">
-          <h3 className="font-bold text-sm text-amber-700 mb-3">📈 Areas to Improve</h3>
-          <div className="space-y-2">
-            {result.weaknesses.map((w) => (
-              <span key={w} className="inline-block bg-amber-50 text-amber-700 border border-amber-200 text-xs font-semibold px-3 py-1 rounded-full mr-2 mb-1">{w}</span>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col sm:flex-row gap-3">
-        <button onClick={() => navigate('/recommendations')} className="btn-primary flex-1 py-3">
-          View Business Recommendations →
-        </button>
-        <button onClick={onRetake} className="btn-secondary flex-1 py-3">Retake Assessment</button>
-      </div>
-    </div>
-  );
-}
-
 export default function SkillAssessmentPage() {
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState({});
@@ -167,7 +75,6 @@ export default function SkillAssessmentPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <div className="flex items-center justify-center min-h-[80vh]">
           <div className="text-center">
             <div className="w-12 h-12 mx-auto border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin mb-4" />
@@ -178,7 +85,7 @@ export default function SkillAssessmentPage() {
     );
   }
 
-  if (result) return <div className="min-h-screen bg-gray-50"><Header /><Results result={result} onRetake={handleRetake} /></div>;
+  if (result) return <div className="min-h-screen bg-gray-50"><Results result={result} onRetake={handleRetake} /></div>;
 
   const q = questions[current];
   const progress = Math.round((current / questions.length) * 100);
@@ -186,7 +93,6 @@ export default function SkillAssessmentPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       <main className="max-w-2xl mx-auto px-4 py-10">
         {/* Header */}
         <div className="text-center mb-6">

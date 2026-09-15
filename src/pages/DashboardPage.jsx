@@ -33,27 +33,6 @@ function RiskBadge({ level }) {
   return <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold ${color}`}>{level} Risk</span>;
 }
 
-function Header({ user, onLogout }) {
-  return (
-    <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-violet-600 flex items-center justify-center">
-            <span className="text-white font-bold text-sm font-display">E</span>
-          </div>
-          <span className="font-display font-bold text-gray-900 hidden sm:block">Entre<span className="gradient-text">Skill</span> Hub</span>
-        </Link>
-        <nav className="flex items-center gap-1 sm:gap-2">
-          <Link to="/assessment" className="btn-ghost text-xs sm:text-sm">📊 Assessment</Link>
-          <Link to="/recommendations" className="btn-ghost text-xs sm:text-sm">💼 Businesses</Link>
-          <Link to="/profile" className="btn-ghost text-xs sm:text-sm">👤 Profile</Link>
-          <button onClick={onLogout} className="btn-secondary text-xs sm:text-sm px-3 py-2">Logout</button>
-        </nav>
-      </div>
-    </header>
-  );
-}
-
 export default function DashboardPage() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
@@ -85,7 +64,6 @@ export default function DashboardPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header user={user} onLogout={handleLogout} />
         <div className="flex items-center justify-center min-h-[80vh]">
           <div className="text-center">
             <div className="w-12 h-12 mx-auto border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin mb-4" />
@@ -98,8 +76,7 @@ export default function DashboardPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header user={user} onLogout={handleLogout} />
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pt-24">
 
         {/* Welcome banner */}
         <div className="rounded-2xl bg-gradient-to-r from-primary-600 to-violet-700 p-6 sm:p-8 mb-8 text-white relative overflow-hidden">

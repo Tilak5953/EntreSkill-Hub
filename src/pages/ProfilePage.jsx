@@ -8,27 +8,6 @@ import toast from 'react-hot-toast';
 
 const INTERESTS = ['Food & Beverages', 'Fashion & Lifestyle', 'Education & Training', 'Technology & IT', 'Health & Wellness', 'Home Services', 'Creative Arts', 'E-Commerce', 'Agriculture & Organic', 'Consulting'];
 
-function Header() {
-  const navigate = useNavigate();
-  const { logout } = useAuth();
-  return (
-    <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-violet-600 flex items-center justify-center">
-            <span className="text-white font-bold text-sm font-display">E</span>
-          </div>
-          <span className="font-display font-bold text-gray-900 hidden sm:block">Entre<span className="gradient-text">Skill</span> Hub</span>
-        </Link>
-        <nav className="flex items-center gap-2">
-          <Link to="/dashboard" className="btn-ghost text-sm">← Dashboard</Link>
-          <button onClick={() => { logout(); navigate('/'); }} className="btn-secondary text-sm px-3 py-2">Logout</button>
-        </nav>
-      </div>
-    </header>
-  );
-}
-
 export default function ProfilePage() {
   const { user, updateProfile } = useAuth();
   const [form, setForm] = useState({ name: '', mobile: '', education: '', skills: [], interests: [], budget: '', experience: '', location: '' });
@@ -86,7 +65,6 @@ export default function ProfilePage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-7">
           <h1 className="font-display font-extrabold text-2xl sm:text-3xl text-gray-900">Edit Profile</h1>

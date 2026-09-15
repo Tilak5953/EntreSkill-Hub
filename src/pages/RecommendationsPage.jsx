@@ -17,27 +17,6 @@ function RiskBadge({ level }) {
   return <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${color}`}>{level} Risk</span>;
 }
 
-function Header() {
-  const navigate = useNavigate();
-  const { logout } = useAuth();
-  return (
-    <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-violet-600 flex items-center justify-center">
-            <span className="text-white font-bold text-sm font-display">E</span>
-          </div>
-          <span className="font-display font-bold text-gray-900 hidden sm:block">Entre<span className="gradient-text">Skill</span> Hub</span>
-        </Link>
-        <nav className="flex items-center gap-2">
-          <Link to="/dashboard" className="btn-ghost text-sm">← Dashboard</Link>
-          <button onClick={() => { logout(); navigate('/'); }} className="btn-secondary text-sm px-3 py-2">Logout</button>
-        </nav>
-      </div>
-    </header>
-  );
-}
-
 export default function RecommendationsPage() {
   const [recommendations, setRecommendations] = useState([]);
   const [savedIds, setSavedIds] = useState(new Set());
@@ -91,7 +70,6 @@ export default function RecommendationsPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <div className="flex items-center justify-center min-h-[80vh]">
           <div className="text-center">
             <div className="w-12 h-12 mx-auto border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin mb-4" />
@@ -104,8 +82,7 @@ export default function RecommendationsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pt-24">
         {/* Page header */}
         <div className="mb-7">
           <span className="section-tag mb-3">Business Recommendations</span>

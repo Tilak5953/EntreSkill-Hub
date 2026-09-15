@@ -12,27 +12,6 @@ function RiskBadge({ level }) {
   return <span className={`text-sm font-semibold px-3 py-1 rounded-full border ${color}`}>{level} Risk</span>;
 }
 
-function Header() {
-  const navigate = useNavigate();
-  const { logout } = useAuth();
-  return (
-    <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-violet-600 flex items-center justify-center">
-            <span className="text-white font-bold text-sm font-display">E</span>
-          </div>
-          <span className="font-display font-bold text-gray-900 hidden sm:block">Entre<span className="gradient-text">Skill</span> Hub</span>
-        </Link>
-        <nav className="flex items-center gap-2">
-          <Link to="/recommendations" className="btn-ghost text-sm">← All Businesses</Link>
-          <button onClick={() => { logout(); navigate('/'); }} className="btn-secondary text-sm px-3 py-2">Logout</button>
-        </nav>
-      </div>
-    </header>
-  );
-}
-
 export default function RecommendationDetailPage() {
   const { id } = useParams();
   const [rec, setRec] = useState(null);
@@ -77,7 +56,6 @@ export default function RecommendationDetailPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <div className="flex items-center justify-center min-h-[80vh]">
           <div className="w-12 h-12 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin" />
         </div>
@@ -88,7 +66,6 @@ export default function RecommendationDetailPage() {
   if (!rec) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <div className="text-center py-20">
           <p className="text-5xl mb-4">🔍</p>
           <h2 className="font-display font-bold text-xl text-gray-900">Business not found</h2>
@@ -100,8 +77,6 @@ export default function RecommendationDetailPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      <Header />
-
       <main className="max-w-7xl mx-auto px-4 sm:px-6 mt-8">
         {/* Premium Dashboard Hero */}
         <div className="bg-gradient-to-br from-gray-900 to-indigo-900 rounded-3xl p-8 sm:p-12 mb-8 shadow-2xl relative overflow-hidden">

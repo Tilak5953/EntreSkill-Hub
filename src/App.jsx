@@ -6,6 +6,7 @@ import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './context/AuthContext';
 import ScrollToTop from './components/common/ScrollToTop';
 import ProtectedRoute from './components/common/ProtectedRoute';
+import Navbar from './components/layout/Navbar';
 
 // Pages
 import HomePage from './pages/HomePage';
@@ -26,6 +27,7 @@ function App() {
     <AuthProvider>
       <Router>
         <ScrollToTop />
+        <Navbar />
         <Toaster
           position="top-right"
           toastOptions={{

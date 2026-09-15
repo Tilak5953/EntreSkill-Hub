@@ -3,7 +3,6 @@
 // Structured to look like a genuine PS-II internship project
 // -- Tilak Kumar
 
-import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import HeroSection from '../components/home/HeroSection';
 import FeaturesSection from '../components/home/FeaturesSection';
@@ -16,10 +15,7 @@ import CTASection from '../components/home/CTASection';
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen">
-      {/* Navigation */}
-      <Navbar />
-
+    <div className="min-h-screen bg-gray-50 selection:bg-primary-100 selection:text-primary-900 font-sans">
       <main>
         {/* Hero banner */}
         <HeroSection />
