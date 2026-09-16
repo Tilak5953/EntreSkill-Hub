@@ -11164,7 +11164,7 @@ const businesses = [
     ]
   },
   {
-    "name": "Podcast Production Agency",
+    "name": "B2B Podcast Production Agency",
     "description": "Help brands and individuals launch, edit, and market their audio podcasts. Offer end-to-end services from equipment setup to distribution.",
     "category": "Entertainment & Media",
     "investment": {
@@ -12695,7 +12695,7 @@ const businesses = [
     ]
   },
   {
-    "name": "Pet Grooming & Boarding",
+    "name": "Luxury Pet Grooming & Spa",
     "description": "A specialized facility offering pet grooming, day-care, and overnight boarding for dogs and cats.",
     "category": "Pet Care & Animal Services",
     "investment": {
